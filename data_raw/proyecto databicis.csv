@@ -1,0 +1,48 @@
+tipo_de_suscriptor,contar,proporción,,tipo de bicicleta,contar,PROPORCION,
+Explorador,834,16.690%,,eléctrico,3764,75.28%,
+Local365,723,14.469%,,clásico,1236,24.72%,
+Local31,722,14.449%,,,,0%,
+Pago por viaje,591,11.827%,,,,,
+Fin de semana de 3 días,584,11.687%,,"La preferencia es bastante clara: las bicicletas eléctricas dominan ampliamente , con aproximadamente el 75,3% de los viajes, mientras que las clásicas representan el 24,7%",,,
+Viaje individual (pago por uso),573,11.467%,,,,,
+Pase de acceso sin reserva de 24 horas,458,9.165%,,,,,
+Membresía estudiantil,442,8.845%,,,,,
+Membresía estudiantil de la UT,54,1.081%,,,,,
+Local30,13,0.260%,,,,,
+Membresía anual,3,0.060%,,,,,
+Republic Rider (Anual),2,0.040%,,,,,
+Pase de invitado Local365+,1,0.020%,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+tipo_de_suscriptor,clásico,eléctrico,,,tipo_de_suscriptor,clásico,eléctrico
+Pase de acceso sin reserva de 24 horas,167,291,,,Pase de acceso sin reserva de 24 horas,"3,646","6,354"
+Fin de semana de 3 días,128,456,,,Fin de semana de 3 días,"2,192","7,808"
+Membresía anual,0,3,,,Membresía anual,0,1
+Explorador,193,641,,,Explorador,"2,314","7,686"
+Local30,3,10,,,Local30,"2,308","7,692"
+Local31,68,654,,,Local31,942,"9,058"
+Local365,87,636,,,Local365,"1,203","8,797"
+Pase de invitado Local365+,1,0,,,Pase de invitado Local365+,1,0
+Pago por viaje,201,390,,,Pago por viaje,"3,401","6,599"
+Republic Rider (Anual),2,0,,,Republic Rider (Anual),1,0
+Viaje individual (pago por uso),301,272,,,Viaje individual (pago por uso),"5,253","4,747"
+Membresía estudiantil,81,361,,,Membresía estudiantil,"1,833","8,167"
+Membresía estudiantil de la UT,4,50,,,Membresía estudiantil de la UT,741,"9,259"
