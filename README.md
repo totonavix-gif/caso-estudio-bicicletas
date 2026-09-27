@@ -182,7 +182,7 @@ grafico_bicicletas <- ggplot(tabla_bicicletas, aes(x = tipo_de_bicicleta, y = co
   geom_bar(stat = "identity", width = 0.6) +
   labs(title = "Preferencia de tipo de bicicleta", x = "Tipo de bicicleta", y = "Cantidad de viajes") +
   theme_minimal()
-ggsave("Preferencia de tipo de bicicleta.png", plot = grafico_bicicletas, width = 6, height = 5)
+ggsave("preferencia_tipo_bicicleta.png", plot = grafico_bicicletas, width = 6, height = 5)
 
 # Gráfico 2: Distribución Completa por Tipo de Usuario
 grafico_usuarios <- ggplot(tabla_suscriptores, aes(x = reorder(tipo_de_suscriptor, -contar), y = contar, fill = tipo_de_suscriptor)) +
@@ -190,29 +190,29 @@ grafico_usuarios <- ggplot(tabla_suscriptores, aes(x = reorder(tipo_de_suscripto
   labs(title = "Proporcion de tipo de usuario", x = "Tipo de usuario", y = "Cantidad de viajes") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-ggsave("Proporcion de tipo de usuario.png", plot = grafico_usuarios, width = 10, height = 5)
+ggsave("proporcion_tipo_bicicleta.png", plot = grafico_usuarios, width = 10, height = 5)
 
 # Gráfico 3: Mapa de Calor de Proporciones Cruzadas
 grafico_heatmap <- ggplot(tabla_cruzada_proporciones, aes(x = tipo_de_bicicleta, y = tipo_de_suscriptor, fill = proporcion)) +
   geom_tile() +
   scale_fill_gradient(low = "white", high = "blue") +
   labs(title = "Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta", x = "Tipo de bicicleta", y = "Tipo de usuario")
-ggsave("Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta.png", plot = grafico_heatmap, width = 8, height = 6)
+ggsave("usuario_x_bicicleta.png", plot = grafico_heatmap, width = 8, height = 6)
 ```
 
 ### Visualizaciones de Datos del Portafolio Final
 
 #### 📊 1. Preferencia del Tipo de Vehículo
 Esta visualización confirma el volumen neto de viajes y la marcada preferencia del mercado por la movilidad eléctrica (electric) frente a las opciones tradicionales (classic).
-![Preferencia de tipo de bicicleta](Preferencia de tipo de bicicleta.png)
+![Preferencia de tipo de bicicleta](preferencia_tipo_bicicleta.png)
 
 #### 👥 2. Proporción y Volumen por Tipo de Usuario
 Este gráfico de barras ordena descendentemente todos los segmentos comerciales del servicio, identificando a los usuarios 'Explorer', 'Local365' y 'Local31' como los motores principales de la demanda.
-![Proporcion de tipo de usuario](Proporcion de tipo de usuario.png)
+![Proporcion de tipo de usuario](proporcion_tipo_bicicleta.png)
 
 #### 🗺️ 3. Mapa de Calor Cruzado (Segmentación Avanzada)
 Esta matriz térmica visualiza la proporción exacta de tipos de bicicleta elegidos por cada perfil de usuario. Permite identificar de forma inmediata patrones críticos, como los nichos que usan el servicio de manera 100% eléctrica o aquellos pases individuales donde la bicicleta clásica aún conserva equilibrio.
-![Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta](Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta.png)
+![Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta](usuario_x_bicicleta.png)
 
 ---
 
