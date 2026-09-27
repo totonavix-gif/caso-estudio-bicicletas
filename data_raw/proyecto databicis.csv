@@ -48,19 +48,3 @@ Membresía estudiantil,81,361,,,Membresía estudiantil,"1,833","8,167"
 Membresía estudiantil de la UT,4,50,,,Membresía estudiantil de la UT,741,"9,259"
 
 
-
-### Visualizaciones de Datos del Portafolio Final
-
-#### 📊 1. Preferencia del Tipo de Vehículo
-Esta visualización confirma el volumen neto de viajes y la marcada preferencia del mercado por la movilidad eléctrica (electric) frente a las opciones tradicionales (classic).
-![Preferencia de tipo de bicicleta](preferencia_tipo_vicicleta.png)
-
-#### 👥 2. Proporción y Volumen por Tipo de Usuario
-Este gráfico de barras ordena descendentemente todos los segmentos comerciales del servicio, identificando a los usuarios 'Explorer', 'Local365' y 'Local31' como los motores principales de la demanda.
-![Proporcion de tipo de usuario](proporcio_tipo_usuario.png)
-
-#### 🗺️ 3. Mapa de Calor Cruzado (Segmentación Avanzada)
-Esta matriz térmica visualiza la proporción exacta de tipos de bicicleta elegidos por cada perfil de usuario. Permite identificar de forma inmediata patrones críticos, como los nichos que usan el servicio de manera 100% eléctrica o aquellos pases individuales donde la bicicleta clásica aún conserva equilibrio.
-![Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta](usuario_x_bicicleta.png)
-
----
