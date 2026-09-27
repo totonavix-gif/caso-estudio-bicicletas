@@ -45,7 +45,7 @@ library(tidyverse)
 library(janitor)
 
 # 1. Importar el dataset original de 5,000 registros
-viajes_raw <- read_csv("data_raw/tu_archivo_original.csv")
+viajes_raw <- read_csv("data_raw/caso-estudio-bicicletas")
 
 # 2. Pipeline de limpieza profunda para asegurar consistencia
 viajes_limpios <- viajes_raw %>%
