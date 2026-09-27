@@ -47,32 +47,7 @@ Viaje individual (pago por uso),301,272,,,Viaje individual (pago por uso),"5,253
 Membresía estudiantil,81,361,,,Membresía estudiantil,"1,833","8,167"
 Membresía estudiantil de la UT,4,50,,,Membresía estudiantil de la UT,741,"9,259"
 
-## 5. Fase: Compartir (Share)
-Para comunicar los hallazgos de forma visual e impactante a las partes interesadas, se desarrollaron gráficos automatizados en **R** utilizando la librería `ggplot2`. Estas visualizaciones permiten identificar de un vistazo las tendencias de consumo estratégicas para la toma de decisiones.
 
-```r
-# Gráfico 1: Preferencia Absoluta de Bicicletas Eléctricas
-grafico_bicicletas <- ggplot(tabla_bicicletas, aes(x = tipo_de_bicicleta, y = contar, fill = tipo_de_bicicleta)) +
-  geom_bar(stat = "identity", width = 0.6) +
-  labs(title = "Preferencia de tipo de bicicleta", x = "Tipo de bicicleta", y = "Cantidad de viajes") +
-  theme_minimal()
-ggsave("preferencia_tipo_bicicleta.png", plot = grafico_bicicletas, width = 6, height = 5)
-
-# Gráfico 2: Distribución Completa por Tipo de Usuario
-grafico_usuarios <- ggplot(tabla_suscriptores, aes(x = reorder(tipo_de_suscriptor, -contar), y = contar, fill = tipo_de_suscriptor)) +
-  geom_col() +
-  labs(title = "Proporcion de tipo de usuario", x = "Tipo de usuario", y = "Cantidad de viajes") +
-  theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-ggsave("proporcion_tipo_bicicleta.png", plot = grafico_usuarios, width = 10, height = 5)
-
-# Gráfico 3: Mapa de Calor de Proporciones Cruzadas
-grafico_heatmap <- ggplot(tabla_cruzada_proporciones, aes(x = tipo_de_bicicleta, y = tipo_de_suscriptor, fill = proporcion)) +
-  geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue") +
-  labs(title = "Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta", x = "Tipo de bicicleta", y = "Tipo de usuario")
-ggsave("usuario_x_bicicleta.png", plot = grafico_heatmap, width = 8, height = 6)
-```
 
 ### Visualizaciones de Datos del Portafolio Final
 
