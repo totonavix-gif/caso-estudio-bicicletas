@@ -254,7 +254,7 @@ Esta matriz térmica visualiza la proporción exacta de tipos de bicicleta elegi
 #### 🍩 4. Visualización Maestra Unificada (Pastel de Dos Niveles)
 Este gráfico avanzado consolida el universo completo de los datos. El núcleo central del pastel aísla la proporción macro de la flota, mientras que el anillo exterior desglosa las membresías comerciales dentro de ese tipo de vehículo.
 
-▶ **Haz clic aquí para ver el código de Python (Matplotlib) utilizado en Julius para generar este gráfico de pastel doble**
+
 <details>
 <summary>Desplegar Código del Gráfico Maestro (Python)</summary>
 
