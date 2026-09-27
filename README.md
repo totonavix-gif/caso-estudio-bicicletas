@@ -174,25 +174,47 @@ print(tabla_cruzada_query)
 ---
 
 ## 5. Fase: Compartir (Share)
-Para comunicar los hallazgos de forma visual e impactante a las partes interesadas, se desarrollaron gráficos automatizados en **R** utilizando la librería `ggplot2`. Estos gráficos permiten identificar de un vistazo las tendencias de consumo.
+Para comunicar los hallazgos de forma visual e impactante a las partes interesadas, se desarrollaron gráficos automatizados en **R** utilizando la librería `ggplot2`. Estas visualizaciones permiten identificar de un vistazo las tendencias de consumo estratégicas para la toma de decisiones.
 
 ```r
 # Gráfico 1: Preferencia Absoluta de Bicicletas Eléctricas
-ggplot(tabla_bicicletas, aes(x = reorder(tipo_de_bicicleta, -proporcion), y = proporcion, fill = tipo_de_bicicleta)) +
+grafico_bicicletas <- ggplot(tabla_bicicletas, aes(x = tipo_de_bicicleta, y = contar, fill = tipo_de_bicicleta)) +
   geom_bar(stat = "identity", width = 0.6) +
-  labs(title = "Dominancia del Tipo de Bicicleta en el Servicio", x = "Tipo de Bicicleta", y = "Porcentaje de Uso (%)") +
+  labs(title = "Preferencia de tipo de bicicleta", x = "Tipo de bicicleta", y = "Cantidad de viajes") +
   theme_minimal()
+ggsave("Preferencia de tipo de bicicleta.png", plot = grafico_bicicletas, width = 6, height = 5)
 
-# Gráfico 2: Distribución de Viajes por Suscriptor (Top 5)
-viajes_limpios %>%
-  count(tipo_de_suscriptor) %>%
-  top_n(5) %>%
-  ggplot(aes(x = reorder(tipo_de_suscriptor, n), y = n, fill = tipo_de_suscriptor)) +
+# Gráfico 2: Distribución Completa por Tipo de Usuario
+grafico_usuarios <- ggplot(tabla_suscriptores, aes(x = reorder(tipo_de_suscriptor, -contar), y = contar, fill = tipo_de_suscriptor)) +
   geom_col() +
-  coord_flip() +
-  labs(title = "Top 5 Tipos de Suscriptores con Mayor Volumen", x = "Tipo de Suscriptor", y = "Total de Viajes") +
-  theme_minimal()
+  labs(title = "Proporcion de tipo de usuario", x = "Tipo de usuario", y = "Cantidad de viajes") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave("Proporcion de tipo de usuario.png", plot = grafico_usuarios, width = 10, height = 5)
+
+# Gráfico 3: Mapa de Calor de Proporciones Cruzadas
+grafico_heatmap <- ggplot(tabla_cruzada_proporciones, aes(x = tipo_de_bicicleta, y = tipo_de_suscriptor, fill = proporcion)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "blue") +
+  labs(title = "Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta", x = "Tipo de bicicleta", y = "Tipo de usuario")
+ggsave("Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta.png", plot = grafico_heatmap, width = 8, height = 6)
 ```
+
+### Visualizaciones de Datos del Portafolio Final
+
+#### 📊 1. Preferencia del Tipo de Vehículo
+Esta visualización confirma el volumen neto de viajes y la marcada preferencia del mercado por la movilidad eléctrica (electric) frente a las opciones tradicionales (classic).
+![Preferencia de tipo de bicicleta](Preferencia de tipo de bicicleta.png)
+
+#### 👥 2. Proporción y Volumen por Tipo de Usuario
+Este gráfico de barras ordena descendentemente todos los segmentos comerciales del servicio, identificando a los usuarios 'Explorer', 'Local365' y 'Local31' como los motores principales de la demanda.
+![Proporcion de tipo de usuario](Proporcion de tipo de usuario.png)
+
+#### 🗺️ 3. Mapa de Calor Cruzado (Segmentación Avanzada)
+Esta matriz térmica visualiza la proporción exacta de tipos de bicicleta elegidos por cada perfil de usuario. Permite identificar de forma inmediata patrones críticos, como los nichos que usan el servicio de manera 100% eléctrica o aquellos pases individuales donde la bicicleta clásica aún conserva equilibrio.
+![Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta](Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta.png)
+
+---
 
 ---
 
