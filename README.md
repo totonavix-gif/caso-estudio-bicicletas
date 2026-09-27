@@ -21,6 +21,155 @@ Para este análisis se utilizó el dataset histórico de viajes del sistema de b
 * **Actuales (Current):** Refleja las tendencias operativas recientes del sistema.
 * **Citados (Cited):** Los datos se manejan bajo estricto anonimato de los usuarios, cumpliendo con las normativas de privacidad vigentes.
 
+---
+
+## 3. Fase: Procesar (Process)
+Para garantizar la integridad y calidad de la información, se importó el dataset original que contenía un registro bruto de **5,000 filas de viajes**. El procesamiento se ejecutó en **R Studio** utilizando el ecosistema `tidyverse`. 
+
+Durante esta fase se aplicaron los siguientes filtros de calidad:
+* Eliminación de registros duplicados en el identificador de viaje.
+* Exclusión de filas con valores nulos (`NA`) en las columnas críticas de clasificación.
+* Limpieza de espacios en blanco accidentales mediante funciones de recorte de texto.
+
+▶ **Haz clic aquí para ver el script de R utilizado para la limpieza de las 5,000 filas**
+<details>
+<summary>Desplegar Código de Limpieza</summary>
+
+```r
+# =======================================================
+# SCRIPT DE R: LIMPIEZA Y PREPARACIÓN DE LAS 5,000 FILAS
+# =======================================================
+
+# Cargar librerías estándar de Google Data Analytics
+library(tidyverse)
+library(janitor)
+
+# 1. Importar el dataset original de 5,000 registros
+viajes_raw <- read_csv("data_raw/tu_archivo_original.csv")
+
+# 2. Pipeline de limpieza profunda para asegurar consistencia
+viajes_limpios <- viajes_raw %>%
+  # Estandarizar nombres de columnas a formato snake_case
+  clean_names() %>%
+  
+  # Remover filas completamente idénticas (Garantía de unicidad)
+  distinct() %>%
+  
+  # Eliminar filas donde falten datos del suscriptor o del vehículo
+  drop_na(tipo_de_suscriptor, tipo_de_bicicleta) %>%
+  
+  # Normalizar textos: quitar espacios vacíos y forzar minúsculas
+  mutate(
+    tipo_de_suscriptor = str_trim(tipo_de_suscriptor),
+    tipo_de_bicicleta = str_to_lower(str_trim(tipo_de_bicicleta))
+  )
+
+# 3. Exportar base de datos depurada a la carpeta correspondiente
+write_csv(viajes_limpios, "data_clean/viajes_bicicletas_procesado.csv")
+```
+</details>
+
+---
+
+## 4. Fase: Analizar (Analyze)
+Una vez estructurada la base de datos limpia, se procedió a realizar agregaciones y consultas matemáticas directas sobre el dataset para construir las tablas de distribución y comportamiento comercial.
+
+### A. Preferencia por Tipo de Bicicleta
+Las bicicletas eléctricas dominan de manera absoluta el servicio con un **75.28%** de los viajes totales.
+
+| Tipo de Bicicleta | Conteo de Viajes | Proporción |
+| :--- | :---: | :---: |
+| Eléctrica | 3,764 | 75.28% |
+| Clásica | 1,236 | 24.72% |
+
+▶ **Haz clic aquí para ver la Query en R que generó esta tabla**
+<details>
+<summary>Desplegar Query de Tipos de Bicicleta</summary>
+
+```r
+# Query para agrupar y calcular porcentajes de vehículos
+tabla_bicicletas_query <- viajes_limpios %>%
+  group_by(tipo_de_bicicleta) %>% 
+  summarise(conteo_viajes = n()) %>% 
+  mutate(proporcion = (conteo_viajes / sum(conteo_viajes)) * 100) %>% 
+  arrange(desc(conteo_viajes))
+
+print(tabla_bicicletas_query)
+```
+</details>
+
+### B. Segmentación de Usuarios por Tipo de Suscripción
+Los usuarios de tipo **Explorador** lideran el volumen operativo con **834 viajes (16.69%)**, seguidos de cerca por los clientes locales de alta frecuencia (*Local365* y *Local31*).
+
+| Tipo de Suscriptor | Conteo (Viajes) | Proporción |
+| :--- | :---: | :---: |
+| Explorador | 834 | 16.690% |
+| Local365 | 723 | 14.469% |
+| Local31 | 722 | 14.449% |
+| Pago por viaje | 591 | 11.827% |
+| Fin de semana de 3 días | 584 | 11.687% |
+| Viaje individual (pago por uso) | 573 | 11.467% |
+| Pase de acceso sin reserva de 24 horas | 458 | 9.165% |
+| Membresía estudiantil | 442 | 8.845% |
+| Membresía estudiantil de la UT | 54 | 1.081% |
+| Local30 | 13 | 0.260% |
+| Membresía anual | 3 | 0.060% |
+| Republic Rider (Anual) | 2 | 0.040% |
+| Pase de invitado Local365+ | 1 | 0.020% |
+
+▶ **Haz clic aquí para ver la Query en R que segmentó los suscriptores**
+<details>
+<summary>Desplegar Query de Segmentación</summary>
+
+```r
+# Query para obtener la distribución por tipo de membresía comercial
+tabla_suscriptores_query <- viajes_limpios %>%
+  group_by(tipo_de_suscriptor) %>%
+  summarise(conteo_viajes = n()) %>%
+  mutate(proporcion = round((conteo_viajes / sum(conteo_viajes)) * 100, 3)) %>%
+  arrange(desc(conteo_viajes))
+
+print(tabla_suscriptores_query)
+```
+</details>
+
+### C. Análisis Cruzado: Intersección de Suscriptores vs. Vehículos
+Para entender los hábitos específicos de cada grupo, cruzamos las variables comerciales. Este análisis demuestra qué vehículos prefiere cada tipo de usuario, permitiendo identificar patrones de uso muy marcados (como los 456 viajes eléctricos hechos por usuarios de fines de semana de 3 días).
+
+| Tipo de Suscriptor | Uso de Bici Clásica | Uso de Bici Eléctrica |
+| :--- | :---: | :---: |
+| Pase de acceso 24 horas | 167 | 291 |
+| Fin de semana de 3 días | 128 | 456 |
+| Membresía anual | 0 | 3 |
+| Explorador | 193 | 641 |
+| Local30 | 3 | 10 |
+| Local31 | 68 | 654 |
+| Local365 | 87 | 636 |
+| Pase invitado Local365+ | 1 | 0 |
+| Pago por viaje | 201 | 390 |
+| Republic Rider (Anual) | 2 | 0 |
+| Viaje individual | 301 | 272 |
+| Membresía estudiantil | 81 | 361 |
+| Membresía estudiantil UT | 4 | 50 |
+
+▶ **Haz clic aquí para ver la Query avanzada de Pivotación (Tabla Dinámica en R)**
+<details>
+<summary>Desplegar Query de Tabla Cruzada</summary>
+
+```r
+# Query para cruzar variables y pivotar la matriz a formato ancho
+tabla_cruzada_query <- viajes_limpios %>%
+  group_by(tipo_de_suscriptor, tipo_de_bicicleta) %>%
+  summarise(total_viajes = n(), .groups = 'drop') %>%
+  pivot_wider(
+    names_from = tipo_de_bicicleta, 
+    values_from = total_viajes,
+    values_fill = 0
+  )
+
+print(tabla_cruzada_query)
+```
+</details>
 
 ---
 
