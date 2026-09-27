@@ -238,6 +238,58 @@ Este gráfico de barras ordena descendentemente todos los segmentos comerciales 
 Esta matriz térmica visualiza la proporción exacta de tipos de bicicleta elegidos por cada perfil de usuario. Permite identificar de forma inmediata patrones críticos, como los nichos que usan el servicio de manera 100% eléctrica o aquellos pases individuales donde la bicicleta clásica aún conserva equilibrio.
 ![Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta](usuario_x_bicicleta.png)
 
+### Visualizaciones de Datos del Portafolio Final
+
+#### 📊 1. Preferencia del Tipo de Vehículo
+![Preferencia de tipo de bicicleta](preferencia_tipo_bicicleta.png)
+
+#### 👥 2. Proporción y Volumen por Tipo de Usuario
+![Proporcion de tipo de usuario](proporcion_tipo_bicicleta.png)
+
+#### 🗺️ 3. Mapa de Calor Cruzado (Segmentación Avanzada)
+![Tabla cruzada de proporcion entre tipo de usuario y tipo de bicicleta](usuario_x_bicicleta.png)
+
+***
+
+#### 🍩 4. Visualización Maestra Unificada (Pastel de Dos Niveles)
+Este gráfico avanzado consolida el universo completo de los datos. El núcleo central del pastel aísla la proporción macro de la flota, mientras que el anillo exterior desglosa las membresías comerciales dentro de ese tipo de vehículo.
+
+▶ **Haz clic aquí para ver el código de Python (Matplotlib) utilizado en Julius para generar este gráfico de pastel doble**
+<details>
+<summary>Desplegar Código del Gráfico Maestro (Python)</summary>
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Datos extraídos del dataset de Austin MetroBike (5,237 registros totales)
+group_names = ['Bicicletas Eléctricas\n(75.28%)', 'Bicicletas Clásicas\n(24.72%)']
+group_size = [3764, 1236]
+
+subgroup_names = [
+    'Explorer', 'Local365', 'Local31', 'Pago por viaje', 'Pase 3 días', 'Otros Elec',
+    'Viaje Indiv.', 'Pago por viaje', 'Explorer', 'Local365', 'Memb. Estud.', 'Otros Clás'
+]
+subgroup_size = [
+    641, 636, 654, 390, 456, 987,
+    301, 201, 193, 87, 81, 373
+]
+
+a, b = [plt.cm.Blues, plt.cm.Reds]
+fig, ax = plt.subplots(figsize=(10, 8))
+ax.axis('equal')
+
+ax.pie(group_size, radius=0.7, labels=group_names, colors=[a(0.6), b(0.6)], textprops={'fontsize': 12, 'weight': 'bold'}, labeldistance=0.4)
+ax.pie(subgroup_size, radius=1.0, labels=subgroup_names, colors=[a(0.5), a(0.4), a(0.3), a(0.2), a(0.1), a(0.05), b(0.5), b(0.4), b(0.3), b(0.2), b(0.1), b(0.05)], wedgeprops=dict(width=0.3, edgecolor='white'), textprops={'fontsize': 9}, labeldistance=1.05)
+
+plt.title("Visualización Maestra Unificada:\nDistribución Global de Vehículos vs. Suscriptores", fontsize=14, weight='bold', pad=20)
+plt.tight_layout()
+plt.show()
+```
+</details>
+
+![Visualizacion Maestra Unificada](grafico_maestro_unificado.png)
+
 ---
 
 ---
