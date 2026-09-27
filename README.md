@@ -288,7 +288,7 @@ plt.show()
 ```
 </details>
 
-![Visualizacion Maestra Unificada](grafico_maestro_unificado.png)
+![Visualizacion Maestra Unificada](pastel_doble_data.png)
 
 ---
 
