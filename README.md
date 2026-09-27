@@ -208,7 +208,7 @@ Esta visualización confirma el volumen neto de viajes y la marcada preferencia 
 
 #### 👥 2. Proporción y Volumen por Tipo de Usuario
 Este gráfico de barras ordena descendentemente todos los segmentos comerciales del servicio, identificando a los usuarios 'Explorer', 'Local365' y 'Local31' como los motores principales de la demanda.
-![Proporcion de tipo de usuario](proporcion_tipo_usuario.png)
+![Proporcion de tipo de usuario](proporcio_tipo_usuario.png)
 
 #### 🗺️ 3. Mapa de Calor Cruzado (Segmentación Avanzada)
 Esta matriz térmica visualiza la proporción exacta de tipos de bicicleta elegidos por cada perfil de usuario. Permite identificar de forma inmediata patrones críticos, como los nichos que usan el servicio de manera 100% eléctrica o aquellos pases individuales donde la bicicleta clásica aún conserva equilibrio.
