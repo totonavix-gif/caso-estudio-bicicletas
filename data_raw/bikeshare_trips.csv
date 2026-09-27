@@ -1,0 +1,501 @@
+trip_id,subscriber_type,bike_id,bike_type,start_time,start_station_id,start_station_name,end_station_id,end_station_name,duration_minutes
+33869739,Student Membership,21499,electric,30/6/2024 23:44:03,4938,22.5/Rio Grande,7189,28th/Rio Grande,7
+33869737,Explorer,19935,electric,30/6/2024 23:42:44,2495,4th/Congress,7253,Barton Springs/Riverside,5
+33869687,Student Membership,22431,electric,30/6/2024 23:26:20,3621,3rd/Nueces,4062,Lakeshore/Pleasant Valley,20
+33869674,Student Membership,270G,classic,30/6/2024 23:24:27,7188,22nd/Pearl,3838,26th/Nueces,5
+33869651,Student Membership,21423,electric,30/6/2024 23:14:47,3798,21st/Speedway @ PCL,2498,Dean Keeton/Speedway,4
+33869632,Student Membership,22573,electric,30/6/2024 23:06:40,3838,26th/Nueces,3838,26th/Nueces,7
+33869631,Student Membership,21481,electric,30/6/2024 23:06:37,3838,26th/Nueces,7189,28th/Rio Grande,3
+33869552,Student Membership,21481,electric,30/6/2024 22:44:20,4938,22.5/Rio Grande,3838,26th/Nueces,3
+33869538,Student Membership,19160,electric,30/6/2024 22:38:37,3798,21st/Speedway @ PCL,2498,Dean Keeton/Speedway,14
+33869532,Student Membership,22453,electric,30/6/2024 22:37:29,7189,28th/Rio Grande,7189,28th/Rio Grande,12
+33869522,Local365,18696,electric,30/6/2024 22:35:40,3797,21st/University,7190,Rio Grande/12th,9
+33869500,Student Membership,22453,electric,30/6/2024 22:31:43,7188,22nd/Pearl,7189,28th/Rio Grande,6
+33869485,Student Membership,21419,electric,30/6/2024 22:29:18,4938,22.5/Rio Grande,7188,22nd/Pearl,2
+33869421,Student Membership,21728,electric,30/6/2024 22:18:43,7188,22nd/Pearl,3621,3rd/Nueces,10
+33869412,Student Membership,270G,classic,30/6/2024 22:16:06,4938,22.5/Rio Grande,7188,22nd/Pearl,2
+33869376,Student Membership,270G,classic,30/6/2024 22:10:30,2548,Guadalupe/West Mall @ University Co-op,4938,22.5/Rio Grande,3
+33869353,Student Membership,19160,electric,30/6/2024 22:06:50,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,15
+33869336,Student Membership,22573,electric,30/6/2024 22:04:49,2548,Guadalupe/West Mall @ University Co-op,3838,26th/Nueces,3
+33869328,Local365,23271,electric,30/6/2024 22:03:13,3797,21st/University,2497,11th/Congress @ The Texas Capitol,12
+33869311,Student Membership,19319,electric,30/6/2024 21:59:48,3797,21st/University,7189,28th/Rio Grande,33
+33869263,Pay-as-you-ride,19274,electric,30/6/2024 21:49:00,2575,Riverside/South Lamar,2575,Riverside/South Lamar,9
+33869259,Pay-as-you-ride,22174,electric,30/6/2024 21:48:38,2575,Riverside/South Lamar,2575,Riverside/South Lamar,9
+33869256,Local365,21790,electric,30/6/2024 21:48:16,3797,21st/University,3621,3rd/Nueces,12
+33869241,Local365,22431,electric,30/6/2024 21:46:47,3797,21st/University,3621,3rd/Nueces,15
+33869160,Student Membership,19160,electric,30/6/2024 21:32:36,2547,21st/Guadalupe,7189,28th/Rio Grande,8
+33869142,Explorer,19330,electric,30/6/2024 21:29:21,2547,21st/Guadalupe,2495,4th/Congress,17
+33869141,Explorer,19935,electric,30/6/2024 21:29:10,2547,21st/Guadalupe,2495,4th/Congress,17
+33869123,Student Membership,22453,electric,30/6/2024 21:26:21,2548,Guadalupe/West Mall @ University Co-op,7188,22nd/Pearl,4
+33869018,Student Membership,19935,electric,30/6/2024 21:11:22,3838,26th/Nueces,2547,21st/Guadalupe,6
+33868999,Local365,19239,electric,30/6/2024 21:08:32,2567,Barton Springs/Bouldin @ Palmer Auditorium,2575,Riverside/South Lamar,6
+33868994,Student Membership,21499,electric,30/6/2024 21:06:58,2547,21st/Guadalupe,4938,22.5/Rio Grande,157
+33868970,Student Membership,21508,electric,30/6/2024 21:03:17,7125,23rd/Pearl,2498,Dean Keeton/Speedway,6
+33868896,Student Membership,19935,electric,30/6/2024 20:54:24,2548,Guadalupe/West Mall @ University Co-op,3838,26th/Nueces,6
+33868887,Local365,21728,electric,30/6/2024 20:53:13,2495,4th/Congress,7188,22nd/Pearl,24
+33868867,Student Membership,21499,electric,30/6/2024 20:50:52,7125,23rd/Pearl,2547,21st/Guadalupe,4
+33868814,Student Membership,19160,electric,30/6/2024 20:46:55,3795,Dean Keeton/Whitis,2547,21st/Guadalupe,7
+33868801,Student Membership,19330,electric,30/6/2024 20:45:47,7125,23rd/Pearl,2547,21st/Guadalupe,4
+33868729,Student Membership,22431,electric,30/6/2024 20:35:51,2548,Guadalupe/West Mall @ University Co-op,3797,21st/University,5
+33868651,Student Membership,19330,electric,30/6/2024 20:28:09,3838,26th/Nueces,7125,23rd/Pearl,2
+33868649,Student Membership,19280,electric,30/6/2024 20:27:52,2547,21st/Guadalupe,2498,Dean Keeton/Speedway,6
+33868576,Student Membership,270G,classic,30/6/2024 20:20:15,7125,23rd/Pearl,2548,Guadalupe/West Mall @ University Co-op,5
+33868552,Student Membership,1782,classic,30/6/2024 20:18:29,3798,21st/Speedway @ PCL,2498,Dean Keeton/Speedway,6
+33868512,Local365,21568,electric,30/6/2024 20:15:35,7188,22nd/Pearl,2495,4th/Congress,37
+33868437,Student Membership,1782,classic,30/6/2024 20:09:07,2498,Dean Keeton/Speedway,3798,21st/Speedway @ PCL,3
+33868423,Student Membership,22431,electric,30/6/2024 20:07:57,7189,28th/Rio Grande,2548,Guadalupe/West Mall @ University Co-op,7
+33868297,Student Membership,19280,electric,30/6/2024 19:55:28,2537,6th/West,2547,21st/Guadalupe,9
+33868258,Explorer,22174,electric,30/6/2024 19:52:12,2575,Riverside/South Lamar,2575,Riverside/South Lamar,41
+33868252,Explorer,19274,electric,30/6/2024 19:51:55,2575,Riverside/South Lamar,2575,Riverside/South Lamar,42
+33868241,Student Membership,21749,electric,30/6/2024 19:50:41,3621,3rd/Nueces,2537,6th/West,3
+33868238,Student Membership,19935,electric,30/6/2024 19:50:29,2547,21st/Guadalupe,2548,Guadalupe/West Mall @ University Co-op,2
+33868223,Student Membership,22453,electric,30/6/2024 19:48:46,7188,22nd/Pearl,2548,Guadalupe/West Mall @ University Co-op,40
+33868184,Student Membership,19330,electric,30/6/2024 19:45:39,3798,21st/Speedway @ PCL,3838,26th/Nueces,9
+33868125,Student Membership,22573,electric,30/6/2024 19:40:21,7189,28th/Rio Grande,2548,Guadalupe/West Mall @ University Co-op,4
+33867979,Explorer,21568,electric,30/6/2024 19:26:58,7189,28th/Rio Grande,7188,22nd/Pearl,49
+33867970,Student Membership,21508,electric,30/6/2024 19:25:41,7188,22nd/Pearl,7125,23rd/Pearl,2
+33867931,Pay-as-you-ride,23271,electric,30/6/2024 19:21:11,4060,Red River/Cesar Chavez @ The Fairmont,3797,21st/University,21
+33867918,Student Membership,22573,electric,30/6/2024 19:19:27,4938,22.5/Rio Grande,7189,28th/Rio Grande,4
+33867887,Pay-as-you-ride,576,classic,30/6/2024 19:15:45,2572,Barton Springs Pool,2552,3rd/West,25
+33867885,Explorer,21729,electric,30/6/2024 19:15:38,4061,Lakeshore/Austin Hostel,4061,Lakeshore/Austin Hostel,47
+33867876,Student Membership,19250,electric,30/6/2024 19:15:03,3797,21st/University,4050,5th/Campbell,18
+33867821,Student Membership,21790,electric,30/6/2024 19:11:48,7189,28th/Rio Grande,3797,21st/University,12
+33867817,Student Membership,19935,electric,30/6/2024 19:11:34,2537,6th/West,2547,21st/Guadalupe,10
+33867793,Local365,22431,electric,30/6/2024 19:09:14,4938,22.5/Rio Grande,7189,28th/Rio Grande,37
+33867792,Student Membership,21568,electric,30/6/2024 19:09:10,3798,21st/Speedway @ PCL,7189,28th/Rio Grande,7
+33867787,Student Membership,19865,electric,30/6/2024 19:08:36,2552,3rd/West,2537,6th/West,2
+33867784,Explorer,18704,electric,30/6/2024 19:08:12,4062,Lakeshore/Pleasant Valley,4061,Lakeshore/Austin Hostel,54
+33867773,Local365,22573,electric,30/6/2024 19:06:58,7188,22nd/Pearl,4938,22.5/Rio Grande,2
+33867738,Explorer,1486,classic,30/6/2024 19:04:40,2575,Riverside/South Lamar,3513,South Congress/Barton Springs @ The Austin American-Statesman,48
+33867723,Pay-as-you-ride,270G,classic,30/6/2024 19:03:30,3798,21st/Speedway @ PCL,7125,23rd/Pearl,12
+33867719,Student Membership,21499,electric,30/6/2024 19:02:31,3798,21st/Speedway @ PCL,7125,23rd/Pearl,12
+33867708,Student Membership,21568,electric,30/6/2024 19:01:15,2498,Dean Keeton/Speedway,3798,21st/Speedway @ PCL,3
+33867690,Student Membership,22431,electric,30/6/2024 18:58:43,7189,28th/Rio Grande,4938,22.5/Rio Grande,4
+33867661,Local365,19110,electric,30/6/2024 18:57:00,3798,21st/Speedway @ PCL,3685,9th/Henderson,12
+33867623,Student Membership,19250,electric,30/6/2024 18:53:58,7188,22nd/Pearl,3797,21st/University,16
+33867562,Student Membership,22453,electric,30/6/2024 18:48:51,4938,22.5/Rio Grande,7188,22nd/Pearl,5
+33867558,Pay-as-you-ride,21744,electric,30/6/2024 18:48:11,4061,Lakeshore/Austin Hostel,4061,Lakeshore/Austin Hostel,59
+33867545,Explorer,19274,electric,30/6/2024 18:46:19,3621,3rd/Nueces,2575,Riverside/South Lamar,50
+33867431,Student Membership,22431,electric,30/6/2024 18:36:30,3797,21st/University,7189,28th/Rio Grande,12
+33867423,Explorer,21659,electric,30/6/2024 18:35:31,2497,11th/Congress @ The Texas Capitol,2575,Riverside/South Lamar,106
+33867419,Explorer,22174,electric,30/6/2024 18:35:21,2497,11th/Congress @ The Texas Capitol,2575,Riverside/South Lamar,29
+33867409,Student Membership,19160,electric,30/6/2024 18:34:40,7189,28th/Rio Grande,3795,Dean Keeton/Whitis,4
+33867132,Student Membership,19110,electric,30/6/2024 18:11:49,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,7
+33867113,Pay-as-you-ride,19280,electric,30/6/2024 18:09:19,3798,21st/Speedway @ PCL,2537,6th/West,16
+33867109,Pay-as-you-ride,19132,electric,30/6/2024 18:08:59,3798,21st/Speedway @ PCL,2537,6th/West,17
+33867107,Pay-as-you-ride,21486,electric,30/6/2024 18:08:46,3798,21st/Speedway @ PCL,2537,6th/West,17
+33867105,Pay-as-you-ride,21806,electric,30/6/2024 18:08:33,3798,21st/Speedway @ PCL,2537,6th/West,17
+33867071,Explorer,21492,electric,30/6/2024 18:06:23,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,75
+33867058,Explorer,21828,electric,30/6/2024 18:05:56,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,76
+33867027,Student Membership,19160,electric,30/6/2024 18:03:33,2548,Guadalupe/West Mall @ University Co-op,7189,28th/Rio Grande,5
+33867014,Explorer,19207,electric,30/6/2024 18:02:35,2496,8th/Congress,2497,11th/Congress @ The Texas Capitol,6
+33867010,Explorer,22174,electric,30/6/2024 18:02:21,2496,8th/Congress,2497,11th/Congress @ The Texas Capitol,6
+33867008,Local31,382,classic,30/6/2024 18:02:07,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,2
+33866974,Student Membership,21790,electric,30/6/2024 17:59:01,7188,22nd/Pearl,7189,28th/Rio Grande,49
+33866964,Explorer,21749,electric,30/6/2024 17:58:40,2547,21st/Guadalupe,3621,3rd/Nueces,47
+33866896,Student Membership,19110,electric,30/6/2024 17:53:14,3798,21st/Speedway @ PCL,7189,28th/Rio Grande,8
+33866886,Local365,14244,classic,30/6/2024 17:52:37,7253,Barton Springs/Riverside,3686,Sterzing/Barton Springs,10
+33866880,Student Membership,19160,electric,30/6/2024 17:52:18,7189,28th/Rio Grande,2548,Guadalupe/West Mall @ University Co-op,5
+33866846,Student Membership,21419,electric,30/6/2024 17:50:36,3838,26th/Nueces,4938,22.5/Rio Grande,3
+33866844,Student Membership,22431,electric,30/6/2024 17:50:30,3838,26th/Nueces,3797,21st/University,10
+33866810,Pay-as-you-ride,21744,electric,30/6/2024 17:47:09,3377,Veterans/Atlanta @ MoPac Ped Bridge,4061,Lakeshore/Austin Hostel,29
+33866735,Pay-as-you-ride,21703,electric,30/6/2024 17:41:31,3790,Lake Austin Blvd/Deep Eddy,3377,Veterans/Atlanta @ MoPac Ped Bridge,5
+33866732,Pay-as-you-ride,21729,electric,30/6/2024 17:41:20,3790,Lake Austin Blvd/Deep Eddy,4061,Lakeshore/Austin Hostel,35
+33866715,Local31,18704,electric,30/6/2024 17:39:53,4059,Nash Hernandez/East @ RBJ South,4062,Lakeshore/Pleasant Valley,43
+33866693,Local365,19865,electric,30/6/2024 17:39:07,2552,3rd/West,2552,3rd/West,38
+33866633,Student Membership,21806,electric,30/6/2024 17:34:32,2547,21st/Guadalupe,3798,21st/Speedway @ PCL,12
+33866568,Local31,21828,electric,30/6/2024 17:29:10,4062,Lakeshore/Pleasant Valley,4059,Nash Hernandez/East @ RBJ South,9
+33866547,Student Membership,19160,electric,30/6/2024 17:27:25,3798,21st/Speedway @ PCL,7189,28th/Rio Grande,7
+33866522,Student Membership,19110,electric,30/6/2024 17:25:40,3838,26th/Nueces,3798,21st/Speedway @ PCL,8
+33866515,Pay-as-you-ride,19935,electric,30/6/2024 17:24:43,2552,3rd/West,2537,6th/West,5
+33866490,Pay-as-you-ride,21773,electric,30/6/2024 17:22:03,2567,Barton Springs/Bouldin @ Palmer Auditorium,2567,Barton Springs/Bouldin @ Palmer Auditorium,108
+33866406,Local31,21868,electric,30/6/2024 17:13:59,3686,Sterzing/Barton Springs,2552,3rd/West,18
+33866351,Student Membership,22431,electric,30/6/2024 17:10:40,3798,21st/Speedway @ PCL,3838,26th/Nueces,8
+33866320,Local365,19935,electric,30/6/2024 17:09:09,3790,Lake Austin Blvd/Deep Eddy,2552,3rd/West,8
+33866313,Pay-as-you-ride,18684,electric,30/6/2024 17:08:23,2567,Barton Springs/Bouldin @ Palmer Auditorium,2567,Barton Springs/Bouldin @ Palmer Auditorium,124
+33866306,Local31,105G,classic,30/6/2024 17:07:56,4058,Hollow Creek/Barton Hills,3686,Sterzing/Barton Springs,6
+33866250,Explorer,22431,electric,30/6/2024 17:03:28,2498,Dean Keeton/Speedway,3798,21st/Speedway @ PCL,4
+33866234,Local365,19865,electric,30/6/2024 17:02:03,3794,4th/Sabine,2552,3rd/West,33
+33866232,Local31,004G,classic,30/6/2024 17:01:54,3794,4th/Sabine,4062,Lakeshore/Pleasant Valley,26
+33866203,Pay-as-you-ride,16935,electric,30/6/2024 16:59:54,3513,South Congress/Barton Springs @ The Austin American-Statesman,3513,South Congress/Barton Springs @ The Austin American-Statesman,6
+33866202,Local365,21698,electric,30/6/2024 16:59:48,3684,Cesar Chavez/Congress,3685,9th/Henderson,32
+33866190,Pay-as-you-ride,19870,electric,30/6/2024 16:59:01,7253,Barton Springs/Riverside,3513,South Congress/Barton Springs @ The Austin American-Statesman,6
+33866114,Student Membership,18696,electric,30/6/2024 16:53:06,7189,28th/Rio Grande,3797,21st/University,8
+33866109,Pay-as-you-ride,1486,classic,30/6/2024 16:53:01,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2575,Riverside/South Lamar,12
+33866106,Pay-as-you-ride,21487,electric,30/6/2024 16:52:48,4061,Lakeshore/Austin Hostel,2494,2nd/Congress,17
+33865982,Pay-as-you-ride,18684,electric,30/6/2024 16:43:27,2572,Barton Springs Pool,2567,Barton Springs/Bouldin @ Palmer Auditorium,11
+33865963,Pay-as-you-ride,21773,electric,30/6/2024 16:41:38,2572,Barton Springs Pool,2567,Barton Springs/Bouldin @ Palmer Auditorium,12
+33865918,Student Membership,21790,electric,30/6/2024 16:38:39,2547,21st/Guadalupe,7188,22nd/Pearl,3
+33865883,Student Membership,19319,electric,30/6/2024 16:35:55,2548,Guadalupe/West Mall @ University Co-op,3797,21st/University,5
+33865858,Local365,22461,electric,30/6/2024 16:34:28,2711,Barton Springs/Kinney,2495,4th/Congress,13
+33865854,Student Membership,21481,electric,30/6/2024 16:34:10,7189,28th/Rio Grande,4938,22.5/Rio Grande,3
+33865848,Local365,21728,electric,30/6/2024 16:33:43,2711,Barton Springs/Kinney,2495,4th/Congress,14
+33865823,Explorer,19110,electric,30/6/2024 16:32:01,2575,Riverside/South Lamar,3838,26th/Nueces,31
+33865818,Explorer,21419,electric,30/6/2024 16:31:56,2575,Riverside/South Lamar,3838,26th/Nueces,32
+33865700,Pay-as-you-ride,21773,electric,30/6/2024 16:22:17,2711,Barton Springs/Kinney,2572,Barton Springs Pool,13
+33865621,Explorer,19250,electric,30/6/2024 16:17:38,2498,Dean Keeton/Speedway,7188,22nd/Pearl,30
+33865571,Student Membership,21568,electric,30/6/2024 16:12:56,4938,22.5/Rio Grande,2498,Dean Keeton/Speedway,5
+33865555,Local365,19479,electric,30/6/2024 16:11:26,7190,Rio Grande/12th,2499,2nd/Lavaca @ City Hall,6
+33865466,Local365,22431,electric,30/6/2024 16:04:30,4938,22.5/Rio Grande,2498,Dean Keeton/Speedway,13
+33865431,Pay-as-you-ride,16974,electric,30/6/2024 16:02:09,3684,Cesar Chavez/Congress,2711,Barton Springs/Kinney,15
+33865427,Local365,22453,electric,30/6/2024 16:01:55,7188,22nd/Pearl,4938,22.5/Rio Grande,2
+33865403,Local365,19865,electric,30/6/2024 16:00:26,3621,3rd/Nueces,3794,4th/Sabine,57
+33865378,Local365,19274,electric,30/6/2024 15:58:03,2552,3rd/West,3621,3rd/Nueces,2
+33865372,Pay-as-you-ride,22563,electric,30/6/2024 15:57:30,3686,Sterzing/Barton Springs,2549,South 1st/Riverside @ Long Center,10
+33865360,Student Membership,19250,electric,30/6/2024 15:56:20,3798,21st/Speedway @ PCL,2498,Dean Keeton/Speedway,3
+33865213,Explorer,22174,electric,30/6/2024 15:46:30,3684,Cesar Chavez/Congress,2496,8th/Congress,11
+33865209,Explorer,19207,electric,30/6/2024 15:46:19,3684,Cesar Chavez/Congress,2496,8th/Congress,11
+33865200,Pay-as-you-ride,19865,electric,30/6/2024 15:45:52,2544,East 6th/Pedernales,3621,3rd/Nueces,14
+33865103,Explorer,21621,electric,30/6/2024 15:38:25,3513,South Congress/Barton Springs @ The Austin American-Statesman,3684,Cesar Chavez/Congress,6
+33865097,Explorer,16333,electric,30/6/2024 15:38:09,3513,South Congress/Barton Springs @ The Austin American-Statesman,3684,Cesar Chavez/Congress,7
+33865087,Student Membership,21806,electric,30/6/2024 15:37:25,7189,28th/Rio Grande,2547,21st/Guadalupe,9
+33865078,Explorer,21419,electric,30/6/2024 15:36:37,2711,Barton Springs/Kinney,2575,Riverside/South Lamar,55
+33865067,Explorer,19110,electric,30/6/2024 15:36:13,2711,Barton Springs/Kinney,2575,Riverside/South Lamar,55
+33865058,Student Membership,19132,electric,30/6/2024 15:35:51,3838,26th/Nueces,3798,21st/Speedway @ PCL,6
+33865057,Explorer,21679,electric,30/6/2024 15:35:49,2497,11th/Congress @ The Texas Capitol,7341,Dean Keeton/Park Place,67
+33865025,Local365,21499,electric,30/6/2024 15:33:14,7190,Rio Grande/12th,3798,21st/Speedway @ PCL,9
+33865015,Explorer,14244,classic,30/6/2024 15:32:34,3684,Cesar Chavez/Congress,7253,Barton Springs/Riverside,4
+33864980,Student Membership,19280,electric,30/6/2024 15:29:25,2498,Dean Keeton/Speedway,3798,21st/Speedway @ PCL,10
+33864975,Student Membership,19160,electric,30/6/2024 15:29:06,2547,21st/Guadalupe,3798,21st/Speedway @ PCL,7
+33864971,Local31,22530,electric,30/6/2024 15:28:46,2542,Plaza Saltillo,3292,East 4th/Chicon,7
+33864968,Student Membership,19319,electric,30/6/2024 15:28:36,7125,23rd/Pearl,2548,Guadalupe/West Mall @ University Co-op,3
+33864898,Explorer,22461,electric,30/6/2024 15:23:49,3513,South Congress/Barton Springs @ The Austin American-Statesman,2711,Barton Springs/Kinney,13
+33864894,Explorer,21773,electric,30/6/2024 15:23:31,3513,South Congress/Barton Springs @ The Austin American-Statesman,2711,Barton Springs/Kinney,12
+33864884,Student Membership,19319,electric,30/6/2024 15:22:33,2547,21st/Guadalupe,7125,23rd/Pearl,5
+33864848,Pay-as-you-ride,21492,electric,30/6/2024 15:19:57,3513,South Congress/Barton Springs @ The Austin American-Statesman,4059,Nash Hernandez/East @ RBJ South,32
+33864823,Local365,21703,electric,30/6/2024 15:19:14,7253,Barton Springs/Riverside,3790,Lake Austin Blvd/Deep Eddy,15
+33864734,Student Membership,21790,electric,30/6/2024 15:12:48,7189,28th/Rio Grande,2547,21st/Guadalupe,7
+33864724,Local365,21868,electric,30/6/2024 15:12:11,2563,Rainey/Driskill,3686,Sterzing/Barton Springs,19
+33864705,Pay-as-you-ride,21492,electric,30/6/2024 15:10:31,2503,South Congress/James,3513,South Congress/Barton Springs @ The Austin American-Statesman,7
+33864680,Explorer,22174,electric,30/6/2024 15:08:55,2539,3rd/Trinity @ The Convention Center,3684,Cesar Chavez/Congress,5
+33864677,Explorer,19432,electric,30/6/2024 15:08:51,2539,3rd/Trinity @ The Convention Center,3684,Cesar Chavez/Congress,5
+33864670,Local365,18704,electric,30/6/2024 15:08:11,2570,South Congress/Academy,4059,Nash Hernandez/East @ RBJ South,43
+33864632,Student Membership,18929,electric,30/6/2024 15:05:12,3795,Dean Keeton/Whitis,3798,21st/Speedway @ PCL,3
+33864614,Student Membership,21723,electric,30/6/2024 15:03:09,4060,Red River/Cesar Chavez @ The Fairmont,7131,13th/Trinity @ Waterloo Greenway,7
+33864542,Pay-as-you-ride,22431,electric,30/6/2024 14:57:52,2552,3rd/West,4938,22.5/Rio Grande,17
+33864537,Local31,21659,electric,30/6/2024 14:57:44,2572,Barton Springs Pool,2497,11th/Congress @ The Texas Capitol,22
+33864534,Local31,21568,electric,30/6/2024 14:57:35,2552,3rd/West,4938,22.5/Rio Grande,17
+33864529,Student Membership,19739,electric,30/6/2024 14:57:06,7188,22nd/Pearl,3798,21st/Speedway @ PCL,8
+33864504,Pay-as-you-ride,21744,electric,30/6/2024 14:55:11,3377,Veterans/Atlanta @ MoPac Ped Bridge,3377,Veterans/Atlanta @ MoPac Ped Bridge,41
+33864495,Pay-as-you-ride,353G,classic,30/6/2024 14:54:33,3377,Veterans/Atlanta @ MoPac Ped Bridge,3377,Veterans/Atlanta @ MoPac Ped Bridge,42
+33864488,Student Membership,21790,electric,30/6/2024 14:54:02,2548,Guadalupe/West Mall @ University Co-op,7189,28th/Rio Grande,3
+33864442,Student Membership,21749,electric,30/6/2024 14:50:16,4938,22.5/Rio Grande,2547,21st/Guadalupe,2
+33864413,Local31,19479,electric,30/6/2024 14:48:15,2542,Plaza Saltillo,7190,Rio Grande/12th,16
+33864406,Student Membership,21790,electric,30/6/2024 14:47:54,3838,26th/Nueces,2548,Guadalupe/West Mall @ University Co-op,4
+33864361,Student Membership,23271,electric,30/6/2024 14:43:52,4062,Lakeshore/Pleasant Valley,4060,Red River/Cesar Chavez @ The Fairmont,19
+33864359,Student Membership,21806,electric,30/6/2024 14:43:48,4938,22.5/Rio Grande,7189,28th/Rio Grande,4
+33864357,Local365,16828,electric,30/6/2024 14:43:39,7190,Rio Grande/12th,7190,Rio Grande/12th,49
+33864235,Local365,16828,electric,30/6/2024 14:35:23,3798,21st/Speedway @ PCL,7190,Rio Grande/12th,8
+33864215,Pay-as-you-ride,21725,electric,30/6/2024 14:34:01,2552,3rd/West,2544,East 6th/Pedernales,13
+33864202,Local365,19239,electric,30/6/2024 14:33:25,3684,Cesar Chavez/Congress,2567,Barton Springs/Bouldin @ Palmer Auditorium,4
+33864182,Local31,19479,electric,30/6/2024 14:32:09,2822,East 6th/Robert T. Martinez,2542,Plaza Saltillo,4
+33864127,Pay-as-you-ride,16456,electric,30/6/2024 14:27:45,3798,21st/Speedway @ PCL,3798,21st/Speedway @ PCL,32
+33864123,Pay-as-you-ride,19250,electric,30/6/2024 14:27:33,3798,21st/Speedway @ PCL,3798,21st/Speedway @ PCL,32
+33864083,Local365,14244,classic,30/6/2024 14:25:13,3513,South Congress/Barton Springs @ The Austin American-Statesman,3684,Cesar Chavez/Congress,8
+33864077,Pay-as-you-ride,21729,electric,30/6/2024 14:24:36,2563,Rainey/Driskill,3790,Lake Austin Blvd/Deep Eddy,24
+33864044,Student Membership,19739,electric,30/6/2024 14:22:29,3798,21st/Speedway @ PCL,7188,22nd/Pearl,34
+33864027,Student Membership,21816,electric,30/6/2024 14:21:05,2548,Guadalupe/West Mall @ University Co-op,4938,22.5/Rio Grande,29
+33864025,Local365,16333,electric,30/6/2024 14:21:00,7186,One Texas Center,3513,South Congress/Barton Springs @ The Austin American-Statesman,3
+33864019,Student Membership,19319,electric,30/6/2024 14:20:28,2548,Guadalupe/West Mall @ University Co-op,2547,21st/Guadalupe,40
+33863928,Local365,21703,electric,30/6/2024 14:15:18,3686,Sterzing/Barton Springs,7253,Barton Springs/Riverside,18
+33863847,Local365,21728,electric,30/6/2024 14:07:43,7187,South Congress/Mary,2711,Barton Springs/Kinney,16
+33863842,Local365,21419,electric,30/6/2024 14:07:34,7187,South Congress/Mary,2711,Barton Springs/Kinney,16
+33863838,Local31,21659,electric,30/6/2024 14:07:08,7187,South Congress/Mary,2572,Barton Springs Pool,34
+33863834,Student Membership,21790,electric,30/6/2024 14:06:34,3798,21st/Speedway @ PCL,3838,26th/Nueces,8
+33863790,Pay-as-you-ride,21868,electric,30/6/2024 14:02:07,4061,Lakeshore/Austin Hostel,2563,Rainey/Driskill,22
+33863767,Pay-as-you-ride,19935,electric,30/6/2024 13:59:45,4062,Lakeshore/Pleasant Valley,3790,Lake Austin Blvd/Deep Eddy,48
+33863750,Local365,21788,electric,30/6/2024 13:58:31,2570,South Congress/Academy,7187,South Congress/Mary,4
+33863659,Local365,21823,electric,30/6/2024 13:50:05,3684,Cesar Chavez/Congress,2570,South Congress/Academy,8
+33863573,Local365,19207,electric,30/6/2024 13:42:46,3455,4th/Guadalupe @ Republic Square,3684,Cesar Chavez/Congress,5
+33863549,Student Membership,21516,electric,30/6/2024 13:41:00,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,9
+33863512,Explorer,18704,electric,30/6/2024 13:38:07,2568,East 11th/Victory Grill,2570,South Congress/Academy,22
+33863508,Explorer,19196,electric,30/6/2024 13:37:45,2568,East 11th/Victory Grill,2570,South Congress/Academy,23
+33863486,Student Membership,21806,electric,30/6/2024 13:36:14,7189,28th/Rio Grande,4938,22.5/Rio Grande,3
+33863447,Explorer,19254,electric,30/6/2024 13:34:17,2707,Rainey/Cummings,2497,11th/Congress @ The Texas Capitol,134
+33863445,Student Membership,16828,electric,30/6/2024 13:33:48,3838,26th/Nueces,3798,21st/Speedway @ PCL,6
+33863431,Explorer,354G,classic,30/6/2024 13:32:20,2707,Rainey/Cummings,2497,11th/Congress @ The Texas Capitol,135
+33863339,Local31,21568,electric,30/6/2024 13:25:23,4938,22.5/Rio Grande,2552,3rd/West,59
+33863337,Student Membership,19280,electric,30/6/2024 13:25:15,3798,21st/Speedway @ PCL,2498,Dean Keeton/Speedway,4
+33863335,Pay-as-you-ride,21725,electric,30/6/2024 13:25:06,4938,22.5/Rio Grande,2552,3rd/West,59
+33863213,Local365,22431,electric,30/6/2024 13:15:05,3794,4th/Sabine,2552,3rd/West,9
+33863136,Student Membership,16456,electric,30/6/2024 13:08:48,2548,Guadalupe/West Mall @ University Co-op,3798,21st/Speedway @ PCL,4
+33863100,Local365,004G,classic,30/6/2024 13:06:15,3292,East 4th/Chicon,3794,4th/Sabine,8
+33863095,Local365,19274,electric,30/6/2024 13:06:01,3292,East 4th/Chicon,2552,3rd/West,18
+33863080,Student Membership,19739,electric,30/6/2024 13:04:46,3838,26th/Nueces,3798,21st/Speedway @ PCL,25
+33863003,Pay-as-you-ride,21703,electric,30/6/2024 12:59:33,3686,Sterzing/Barton Springs,3686,Sterzing/Barton Springs,55
+33862958,Local31,18684,electric,30/6/2024 12:56:41,2497,11th/Congress @ The Texas Capitol,2572,Barton Springs Pool,23
+33862907,Pay-as-you-ride,22563,electric,30/6/2024 12:52:24,3686,Sterzing/Barton Springs,3686,Sterzing/Barton Springs,33
+33862835,Local365,19078,electric,30/6/2024 12:44:42,3684,Cesar Chavez/Congress,7187,South Congress/Mary,9
+33862818,Explorer,21543,electric,30/6/2024 12:42:45,3455,4th/Guadalupe @ Republic Square,2497,11th/Congress @ The Texas Capitol,79
+33862817,Local365,23271,electric,30/6/2024 12:42:42,3686,Sterzing/Barton Springs,4062,Lakeshore/Pleasant Valley,19
+33862785,Local365,21659,electric,30/6/2024 12:40:46,2494,2nd/Congress,7187,South Congress/Mary,13
+33862783,Local365,16974,electric,30/6/2024 12:40:34,2494,2nd/Congress,3684,Cesar Chavez/Congress,4
+33862767,Local365,22563,electric,30/6/2024 12:39:11,3686,Sterzing/Barton Springs,3686,Sterzing/Barton Springs,3
+33862760,Student Membership,22599,electric,30/6/2024 12:38:33,4699,East 5th/Shady @ Eastside Bus Plaza,3660,East 6th/Medina,15
+33862757,Explorer,21821,electric,30/6/2024 12:38:29,3455,4th/Guadalupe @ Republic Square,2497,11th/Congress @ The Texas Capitol,83
+33862742,Explorer,21679,electric,30/6/2024 12:36:39,3455,4th/Guadalupe @ Republic Square,2497,11th/Congress @ The Texas Capitol,85
+33862740,Explorer,22511,electric,30/6/2024 12:36:27,3455,4th/Guadalupe @ Republic Square,2497,11th/Congress @ The Texas Capitol,85
+33862694,Student Membership,21790,electric,30/6/2024 12:32:17,2498,Dean Keeton/Speedway,3798,21st/Speedway @ PCL,4
+33862693,Local365,21718,electric,30/6/2024 12:32:09,2494,2nd/Congress,4050,5th/Campbell,8
+33862656,Pay-as-you-ride,21828,electric,30/6/2024 12:27:38,2503,South Congress/James,4062,Lakeshore/Pleasant Valley,18
+33862633,Local365,16974,electric,30/6/2024 12:25:29,2707,Rainey/Cummings,2494,2nd/Congress,6
+33862572,Explorer,576,classic,30/6/2024 12:19:51,2572,Barton Springs Pool,2572,Barton Springs Pool,120
+33862566,Pay-as-you-ride,19280,electric,30/6/2024 12:19:10,2497,11th/Congress @ The Texas Capitol,3798,21st/Speedway @ PCL,43
+33862562,Pay-as-you-ride,19250,electric,30/6/2024 12:18:57,2497,11th/Congress @ The Texas Capitol,3798,21st/Speedway @ PCL,44
+33862559,Pay-as-you-ride,21486,electric,30/6/2024 12:18:47,2497,11th/Congress @ The Texas Capitol,3798,21st/Speedway @ PCL,44
+33862554,Pay-as-you-ride,19330,electric,30/6/2024 12:18:20,2497,11th/Congress @ The Texas Capitol,3798,21st/Speedway @ PCL,44
+33862498,Pay-as-you-ride,21679,electric,30/6/2024 12:11:24,2497,11th/Congress @ The Texas Capitol,3455,4th/Guadalupe @ Republic Square,5
+33862433,Local31,21725,electric,30/6/2024 12:05:44,7187,South Congress/Mary,4938,22.5/Rio Grande,19
+33862393,Local31,21868,electric,30/6/2024 12:03:32,2503,South Congress/James,4061,Lakeshore/Austin Hostel,15
+33862380,Local365,105G,classic,30/6/2024 12:02:27,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,4058,Hollow Creek/Barton Hills,10
+33862324,Local365,1486,classic,30/6/2024 11:56:54,2552,3rd/West,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,5
+33862218,Student Membership,21718,electric,30/6/2024 11:46:44,3838,26th/Nueces,2494,2nd/Congress,12
+33862100,Student Membership,21816,electric,30/6/2024 11:35:30,7189,28th/Rio Grande,2548,Guadalupe/West Mall @ University Co-op,4
+33862097,Student Membership,21790,electric,30/6/2024 11:35:06,3838,26th/Nueces,2498,Dean Keeton/Speedway,3
+33862086,Student Membership,19160,electric,30/6/2024 11:33:42,3798,21st/Speedway @ PCL,2547,21st/Guadalupe,4
+33862076,Student Membership,21659,electric,30/6/2024 11:32:46,7189,28th/Rio Grande,2494,2nd/Congress,26
+33862056,Student Membership,21568,electric,30/6/2024 11:30:03,3838,26th/Nueces,4938,22.5/Rio Grande,2
+33862036,Pay-as-you-ride,105G,classic,30/6/2024 11:27:10,2707,Rainey/Cummings,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,17
+33861903,Local31,19935,electric,30/6/2024 11:17:18,2567,Barton Springs/Bouldin @ Palmer Auditorium,4062,Lakeshore/Pleasant Valley,27
+33861881,Local365,19160,electric,30/6/2024 11:15:25,7190,Rio Grande/12th,3798,21st/Speedway @ PCL,9
+33861852,Local365,21703,electric,30/6/2024 11:12:33,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,3686,Sterzing/Barton Springs,6
+33861843,Local365,1486,classic,30/6/2024 11:11:42,2575,Riverside/South Lamar,2552,3rd/West,5
+33861832,Local31,16276,electric,30/6/2024 11:10:20,3513,South Congress/Barton Springs @ The Austin American-Statesman,2567,Barton Springs/Bouldin @ Palmer Auditorium,6
+33861813,Local365,19280,electric,30/6/2024 11:08:09,3684,Cesar Chavez/Congress,2497,11th/Congress @ The Texas Capitol,8
+33861811,Local365,21486,electric,30/6/2024 11:08:08,3684,Cesar Chavez/Congress,2497,11th/Congress @ The Texas Capitol,8
+33861794,Local31,22530,electric,30/6/2024 11:06:02,7190,Rio Grande/12th,2542,Plaza Saltillo,14
+33861788,Local365,1486,classic,30/6/2024 11:05:42,3686,Sterzing/Barton Springs,2575,Riverside/South Lamar,5
+33861766,Local365,22563,electric,30/6/2024 11:03:42,3686,Sterzing/Barton Springs,3686,Sterzing/Barton Springs,2
+33861735,Local365,21703,electric,30/6/2024 10:59:48,2707,Rainey/Cummings,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,9
+33861700,Local365,354G,classic,30/6/2024 10:55:13,4059,Nash Hernandez/East @ RBJ South,2707,Rainey/Cummings,4
+33861688,Student Membership,19739,electric,30/6/2024 10:53:52,4938,22.5/Rio Grande,3838,26th/Nueces,4
+33861668,Local365,21698,electric,30/6/2024 10:51:27,2575,Riverside/South Lamar,3684,Cesar Chavez/Congress,16
+33861665,Local365,21823,electric,30/6/2024 10:51:21,2575,Riverside/South Lamar,3684,Cesar Chavez/Congress,16
+33861655,Local365,23271,electric,30/6/2024 10:50:33,4061,Lakeshore/Austin Hostel,3686,Sterzing/Barton Springs,18
+33861596,Student Membership,157G,classic,30/6/2024 10:44:56,2537,6th/West,2498,Dean Keeton/Speedway,18
+33861583,Local31,16276,electric,30/6/2024 10:43:48,2823,East 5th/Broadway @ Capital Metro HQ,3513,South Congress/Barton Springs @ The Austin American-Statesman,26
+33861577,Pay-as-you-ride,21679,electric,30/6/2024 10:43:05,2497,11th/Congress @ The Texas Capitol,2497,11th/Congress @ The Texas Capitol,8
+33861458,Explorer,21772,electric,30/6/2024 10:32:26,4061,Lakeshore/Austin Hostel,2567,Barton Springs/Bouldin @ Palmer Auditorium,40
+33861457,Explorer,21490,electric,30/6/2024 10:32:16,4061,Lakeshore/Austin Hostel,2567,Barton Springs/Bouldin @ Palmer Auditorium,40
+33861394,Pay-as-you-ride,19270,electric,30/6/2024 10:24:51,2574,Zilker Park,2567,Barton Springs/Bouldin @ Palmer Auditorium,26
+33861360,Local365,22511,electric,30/6/2024 10:20:18,7187,South Congress/Mary,3455,4th/Guadalupe @ Republic Square,10
+33861336,Local31,21772,electric,30/6/2024 10:17:55,2823,East 5th/Broadway @ Capital Metro HQ,4061,Lakeshore/Austin Hostel,13
+33861315,Pay-as-you-ride,19254,electric,30/6/2024 10:16:12,2575,Riverside/South Lamar,2707,Rainey/Cummings,68
+33861191,Student Membership,19739,electric,30/6/2024 9:59:55,3838,26th/Nueces,4938,22.5/Rio Grande,3
+33861181,Local365,21744,electric,30/6/2024 9:58:49,2563,Rainey/Driskill,3377,Veterans/Atlanta @ MoPac Ped Bridge,43
+33861121,Explorer,23271,electric,30/6/2024 9:51:48,2707,Rainey/Cummings,4061,Lakeshore/Austin Hostel,30
+33861119,Explorer,21490,electric,30/6/2024 9:51:34,2707,Rainey/Cummings,4061,Lakeshore/Austin Hostel,30
+33861100,Local31,19608,electric,30/6/2024 9:48:27,2539,3rd/Trinity @ The Convention Center,3660,East 6th/Medina,4
+33861001,Student Membership,270G,classic,30/6/2024 9:32:42,7188,22nd/Pearl,3798,21st/Speedway @ PCL,8
+33860983,Explorer,21487,electric,30/6/2024 9:30:39,4062,Lakeshore/Pleasant Valley,4061,Lakeshore/Austin Hostel,107
+33860980,Explorer,19326,electric,30/6/2024 9:30:26,4062,Lakeshore/Pleasant Valley,4061,Lakeshore/Austin Hostel,107
+33860926,Explorer,19207,electric,30/6/2024 9:22:45,2549,South 1st/Riverside @ Long Center,3455,4th/Guadalupe @ Republic Square,4
+33860857,Local365,22511,electric,30/6/2024 9:12:51,2572,Barton Springs Pool,7187,South Congress/Mary,63
+33860848,Student Membership,21790,electric,30/6/2024 9:09:58,3838,26th/Nueces,3838,26th/Nueces,30
+33860808,Pay-as-you-ride,21419,electric,30/6/2024 9:00:41,2497,11th/Congress @ The Texas Capitol,7187,South Congress/Mary,75
+33860796,Local365,19693,electric,30/6/2024 8:57:48,3686,Sterzing/Barton Springs,3377,Veterans/Atlanta @ MoPac Ped Bridge,156
+33860776,Explorer,21773,electric,30/6/2024 8:53:56,3686,Sterzing/Barton Springs,3513,South Congress/Barton Springs @ The Austin American-Statesman,39
+33860760,Explorer,1486,classic,30/6/2024 8:50:07,3686,Sterzing/Barton Springs,3686,Sterzing/Barton Springs,3
+33860749,Explorer,22461,electric,30/6/2024 8:47:56,3686,Sterzing/Barton Springs,3513,South Congress/Barton Springs @ The Austin American-Statesman,45
+33860664,Explorer,21486,electric,30/6/2024 8:31:38,3684,Cesar Chavez/Congress,3684,Cesar Chavez/Congress,28
+33860657,Pay-as-you-ride,21423,electric,30/6/2024 8:30:59,4051,10th/Red River,3798,21st/Speedway @ PCL,15
+33860540,Explorer,19270,electric,30/6/2024 8:07:06,3513,South Congress/Barton Springs @ The Austin American-Statesman,2574,Zilker Park,113
+33860508,Local365,21823,electric,30/6/2024 8:03:30,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2575,Riverside/South Lamar,3
+33860499,Local365,19254,electric,30/6/2024 8:01:15,2552,3rd/West,2575,Riverside/South Lamar,5
+33860459,Local365,22511,electric,30/6/2024 7:50:17,2503,South Congress/James,2572,Barton Springs Pool,8
+33860425,Explorer,22461,electric,30/6/2024 7:40:11,4059,Nash Hernandez/East @ RBJ South,3686,Sterzing/Barton Springs,34
+33860423,Explorer,19693,electric,30/6/2024 7:40:02,4059,Nash Hernandez/East @ RBJ South,3686,Sterzing/Barton Springs,34
+33860421,Explorer,21773,electric,30/6/2024 7:39:50,4059,Nash Hernandez/East @ RBJ South,3686,Sterzing/Barton Springs,35
+33860228,Local31,21772,electric,30/6/2024 5:31:30,4057,6th/Chalmers,2823,East 5th/Broadway @ Capital Metro HQ,5
+33860183,Student Membership,21806,electric,30/6/2024 4:08:23,4938,22.5/Rio Grande,7189,28th/Rio Grande,4
+33860093,Pay-as-you-ride,21516,electric,30/6/2024 2:50:44,4938,22.5/Rio Grande,7189,28th/Rio Grande,5
+33860092,Pay-as-you-ride,18696,electric,30/6/2024 2:50:33,4938,22.5/Rio Grande,7189,28th/Rio Grande,5
+33860068,Local365,19739,electric,30/6/2024 2:33:52,7188,22nd/Pearl,3838,26th/Nueces,5
+33860041,Local365,22453,electric,30/6/2024 2:21:40,2498,Dean Keeton/Speedway,7188,22nd/Pearl,10
+33860030,Local31,21659,electric,30/6/2024 2:17:00,3660,East 6th/Medina,7189,28th/Rio Grande,18
+33860013,Local365,270G,classic,30/6/2024 2:13:05,7341,Dean Keeton/Park Place,7188,22nd/Pearl,19
+33860012,Local365,1782,classic,30/6/2024 2:12:58,7341,Dean Keeton/Park Place,2498,Dean Keeton/Speedway,9
+33860002,Student Membership,21816,electric,30/6/2024 2:08:03,4938,22.5/Rio Grande,7189,28th/Rio Grande,3
+33859974,Local365,19160,electric,30/6/2024 2:01:46,3455,4th/Guadalupe @ Republic Square,7190,Rio Grande/12th,5
+33859922,Student Membership,21568,electric,30/6/2024 1:46:37,4938,22.5/Rio Grande,3838,26th/Nueces,3
+33859888,Local31,1486,classic,30/6/2024 1:35:19,2552,3rd/West,3686,Sterzing/Barton Springs,11
+33859825,Student Membership,21413,electric,30/6/2024 1:11:35,2496,8th/Congress,7188,22nd/Pearl,12
+33859806,Local31,21659,electric,30/6/2024 1:07:04,2569,East 11th/San Marcos,3660,East 6th/Medina,26
+33859757,Local365,21772,electric,30/6/2024 0:56:34,2571,8th/Red River,4057,6th/Chalmers,7
+33859754,Pay-as-you-ride,16974,electric,30/6/2024 0:55:38,4060,Red River/Cesar Chavez @ The Fairmont,2707,Rainey/Cummings,5
+33859739,Student Membership,21481,electric,30/6/2024 0:52:18,2548,Guadalupe/West Mall @ University Co-op,7189,28th/Rio Grande,10
+33859729,Student Membership,21481,electric,30/6/2024 0:49:45,2547,21st/Guadalupe,2548,Guadalupe/West Mall @ University Co-op,2
+33859676,Pay-as-you-ride,21487,electric,30/6/2024 0:34:18,4060,Red River/Cesar Chavez @ The Fairmont,4062,Lakeshore/Pleasant Valley,16
+33859652,Pay-as-you-ride,19682,electric,30/6/2024 0:28:30,2504,South Congress/Elizabeth,2504,South Congress/Elizabeth,24
+33859646,Pay-as-you-ride,22511,electric,30/6/2024 0:28:16,2504,South Congress/Elizabeth,2503,South Congress/James,14
+33859603,Student Membership,19132,electric,30/6/2024 0:18:36,3798,21st/Speedway @ PCL,3838,26th/Nueces,8
+33859560,Explorer,19207,electric,30/6/2024 0:10:39,2499,2nd/Lavaca @ City Hall,2549,South 1st/Riverside @ Long Center,3
+33859442,Local31,22470,electric,29/6/2024 23:50:07,7125,23rd/Pearl,7190,Rio Grande/12th,7
+33859429,Student Membership,21699,electric,29/6/2024 23:48:09,4879,16th/San Antonio,7188,22nd/Pearl,7
+33859289,Local365,19326,electric,29/6/2024 23:26:45,3292,East 4th/Chicon,4062,Lakeshore/Pleasant Valley,11
+33859249,Local365,19274,electric,29/6/2024 23:19:36,2542,Plaza Saltillo,3292,East 4th/Chicon,7
+33859154,Student Membership,21718,electric,29/6/2024 23:06:51,2548,Guadalupe/West Mall @ University Co-op,3838,26th/Nueces,4
+33859129,Pay-as-you-ride,18726,electric,29/6/2024 23:04:33,2567,Barton Springs/Bouldin @ Palmer Auditorium,2567,Barton Springs/Bouldin @ Palmer Auditorium,8
+33859044,Student Membership,4399,classic,29/6/2024 22:54:21,3799,23rd/San Jacinto @ DKR Stadium,7341,Dean Keeton/Park Place,3
+33858967,Pay-as-you-ride,21821,electric,29/6/2024 22:41:02,4050,5th/Campbell,3455,4th/Guadalupe @ Republic Square,7
+33858928,Pay-as-you-ride,21803,electric,29/6/2024 22:33:58,3455,4th/Guadalupe @ Republic Square,2567,Barton Springs/Bouldin @ Palmer Auditorium,77
+33858908,Student Membership,16828,electric,29/6/2024 22:30:20,3798,21st/Speedway @ PCL,3838,26th/Nueces,7
+33858865,Pay-as-you-ride,19935,electric,29/6/2024 22:24:24,3513,South Congress/Barton Springs @ The Austin American-Statesman,2567,Barton Springs/Bouldin @ Palmer Auditorium,78
+33858828,Local31,19196,electric,29/6/2024 22:15:44,2542,Plaza Saltillo,2568,East 11th/Victory Grill,5
+33858816,Local365,21772,electric,29/6/2024 22:13:58,4057,6th/Chalmers,2571,8th/Red River,7
+33858733,Pay-as-you-ride,21516,electric,29/6/2024 22:02:54,7189,28th/Rio Grande,4938,22.5/Rio Grande,5
+33858732,Pay-as-you-ride,21749,electric,29/6/2024 22:02:53,7189,28th/Rio Grande,4938,22.5/Rio Grande,5
+33858731,Student Membership,19739,electric,29/6/2024 22:02:52,7189,28th/Rio Grande,7188,22nd/Pearl,6
+33858689,Student Membership,19608,electric,29/6/2024 21:56:35,2561,12th/San Jacinto @ State Capitol Visitors Garage,2539,3rd/Trinity @ The Convention Center,10
+33858660,Student Membership,21790,electric,29/6/2024 21:53:42,3798,21st/Speedway @ PCL,3838,26th/Nueces,5
+33858628,Student Membership,18696,electric,29/6/2024 21:50:09,3838,26th/Nueces,4938,22.5/Rio Grande,5
+33858627,Explorer,22573,electric,29/6/2024 21:50:06,7188,22nd/Pearl,7188,22nd/Pearl,9
+33858625,Student Membership,21816,electric,29/6/2024 21:49:46,3838,26th/Nueces,4938,22.5/Rio Grande,6
+33858594,Explorer,21810,electric,29/6/2024 21:45:03,3684,Cesar Chavez/Congress,2711,Barton Springs/Kinney,12
+33858593,Explorer,19110,electric,29/6/2024 21:44:51,3684,Cesar Chavez/Congress,2711,Barton Springs/Kinney,13
+33858586,Explorer,19693,electric,29/6/2024 21:43:31,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,33
+33858538,Student Membership,21790,electric,29/6/2024 21:39:14,3838,26th/Nueces,3798,21st/Speedway @ PCL,6
+33858428,Explorer,354G,classic,29/6/2024 21:27:35,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,49
+33858410,Pay-as-you-ride,22461,electric,29/6/2024 21:25:17,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,52
+33858408,Student Membership,21516,electric,29/6/2024 21:25:11,2498,Dean Keeton/Speedway,7189,28th/Rio Grande,11
+33858403,Explorer,382,classic,29/6/2024 21:24:00,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,52
+33858402,Local31,16828,electric,29/6/2024 21:23:51,2707,Rainey/Cummings,3798,21st/Speedway @ PCL,20
+33858400,Explorer,21773,electric,29/6/2024 21:23:39,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,53
+33858356,Local31,105G,classic,29/6/2024 21:18:33,4059,Nash Hernandez/East @ RBJ South,2707,Rainey/Cummings,4
+33858338,Explorer,19280,electric,29/6/2024 21:16:21,7186,One Texas Center,3684,Cesar Chavez/Congress,67
+33858334,Student Membership,19739,electric,29/6/2024 21:16:05,3798,21st/Speedway @ PCL,7189,28th/Rio Grande,9
+33858291,Explorer,19693,electric,29/6/2024 21:12:26,3791,Lake Austin/Enfield,4059,Nash Hernandez/East @ RBJ South,29
+33858269,Student Membership,21718,electric,29/6/2024 21:10:18,2707,Rainey/Cummings,2547,21st/Guadalupe,28
+33858254,Local365,19274,electric,29/6/2024 21:08:59,4059,Nash Hernandez/East @ RBJ South,2542,Plaza Saltillo,9
+33858183,Student Membership,19739,electric,29/6/2024 21:03:26,2547,21st/Guadalupe,3798,21st/Speedway @ PCL,3
+33858160,Student Membership,21816,electric,29/6/2024 21:01:02,3798,21st/Speedway @ PCL,3838,26th/Nueces,5
+33858141,Student Membership,21790,electric,29/6/2024 20:59:22,3795,Dean Keeton/Whitis,3838,26th/Nueces,14
+33858134,Student Membership,21481,electric,29/6/2024 20:58:56,3838,26th/Nueces,2548,Guadalupe/West Mall @ University Co-op,3
+33858126,Local31,22461,electric,29/6/2024 20:58:20,4062,Lakeshore/Pleasant Valley,4059,Nash Hernandez/East @ RBJ South,15
+33858108,Student Membership,18696,electric,29/6/2024 20:56:21,7189,28th/Rio Grande,3838,26th/Nueces,2
+33858099,Student Membership,16828,electric,29/6/2024 20:55:36,4062,Lakeshore/Pleasant Valley,2707,Rainey/Cummings,14
+33858092,Student Membership,22573,electric,29/6/2024 20:54:43,7188,22nd/Pearl,7188,22nd/Pearl,18
+33858091,Explorer,1949,classic,29/6/2024 20:54:42,2575,Riverside/South Lamar,2574,Zilker Park,786
+33858064,Local365,22530,electric,29/6/2024 20:52:20,2499,2nd/Lavaca @ City Hall,7190,Rio Grande/12th,8
+33857976,Pay-as-you-ride,21698,electric,29/6/2024 20:45:23,2575,Riverside/South Lamar,2575,Riverside/South Lamar,34
+33857957,Local365,21568,electric,29/6/2024 20:44:24,7341,Dean Keeton/Park Place,4938,22.5/Rio Grande,6
+33857934,Local31,21486,electric,29/6/2024 20:42:27,4059,Nash Hernandez/East @ RBJ South,3684,Cesar Chavez/Congress,30
+33857925,Local31,19239,electric,29/6/2024 20:41:53,4059,Nash Hernandez/East @ RBJ South,3684,Cesar Chavez/Congress,31
+33857922,Student Membership,22470,electric,29/6/2024 20:41:42,4879,16th/San Antonio,7125,23rd/Pearl,59
+33857907,Pay-as-you-ride,19254,electric,29/6/2024 20:40:44,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2552,3rd/West,6
+33857894,Pay-as-you-ride,19386,electric,29/6/2024 20:39:50,3790,Lake Austin Blvd/Deep Eddy,3791,Lake Austin/Enfield,10
+33857868,Pay-as-you-ride,19078,electric,29/6/2024 20:38:02,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,3684,Cesar Chavez/Congress,22
+33857865,Pay-as-you-ride,21823,electric,29/6/2024 20:37:59,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,3
+33857855,Student Membership,19739,electric,29/6/2024 20:37:06,2552,3rd/West,2547,21st/Guadalupe,11
+33857754,Local365,19254,electric,29/6/2024 20:29:51,2567,Barton Springs/Bouldin @ Palmer Auditorium,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,6
+33857729,Local31,21773,electric,29/6/2024 20:27:53,2542,Plaza Saltillo,4059,Nash Hernandez/East @ RBJ South,14
+33857727,Local31,21486,electric,29/6/2024 20:27:47,2542,Plaza Saltillo,4059,Nash Hernandez/East @ RBJ South,14
+33857679,Local365,19326,electric,29/6/2024 20:24:35,3794,4th/Sabine,3292,East 4th/Chicon,11
+33857677,Local365,004G,classic,29/6/2024 20:24:15,3794,4th/Sabine,3292,East 4th/Chicon,11
+33857655,Pay-as-you-ride,21543,electric,29/6/2024 20:22:32,2707,Rainey/Cummings,3455,4th/Guadalupe @ Republic Square,10
+33857646,Local31,19160,electric,29/6/2024 20:22:00,2707,Rainey/Cummings,3455,4th/Guadalupe @ Republic Square,10
+33857636,Local31,19739,electric,29/6/2024 20:21:15,2504,South Congress/Elizabeth,2552,3rd/West,10
+33857630,Explorer,21508,electric,29/6/2024 20:20:49,2537,6th/West,7188,22nd/Pearl,10
+33857618,Student Membership,22470,electric,29/6/2024 20:20:17,7189,28th/Rio Grande,4879,16th/San Antonio,21
+33857604,Pay-as-you-ride,353G,classic,29/6/2024 20:19:05,3686,Sterzing/Barton Springs,3377,Veterans/Atlanta @ MoPac Ped Bridge,13
+33857589,Explorer,19720,electric,29/6/2024 20:17:36,2575,Riverside/South Lamar,2549,South 1st/Riverside @ Long Center,64
+33857531,Local31,22431,electric,29/6/2024 20:13:52,3794,4th/Sabine,3794,4th/Sabine,19
+33857508,Explorer,19720,electric,29/6/2024 20:12:03,2567,Barton Springs/Bouldin @ Palmer Auditorium,2575,Riverside/South Lamar,5
+33857505,Student Membership,22461,electric,29/6/2024 20:11:33,2547,21st/Guadalupe,4062,Lakeshore/Pleasant Valley,43
+33857498,Student Membership,16946,electric,29/6/2024 20:11:21,2567,Barton Springs/Bouldin @ Palmer Auditorium,2549,South 1st/Riverside @ Long Center,70
+33857476,Student Membership,22573,electric,29/6/2024 20:09:10,7189,28th/Rio Grande,7188,22nd/Pearl,4
+33857473,Local31,21718,electric,29/6/2024 20:08:58,2503,South Congress/James,2707,Rainey/Cummings,17
+33857455,Explorer,19720,electric,29/6/2024 20:07:14,2549,South 1st/Riverside @ Long Center,2567,Barton Springs/Bouldin @ Palmer Auditorium,4
+33857452,Student Membership,19254,electric,29/6/2024 20:06:58,2549,South 1st/Riverside @ Long Center,2567,Barton Springs/Bouldin @ Palmer Auditorium,5
+33857438,Pay-as-you-ride,19865,electric,29/6/2024 20:06:04,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2544,East 6th/Pedernales,17
+33857427,Explorer,17751,electric,29/6/2024 20:04:58,2567,Barton Springs/Bouldin @ Palmer Auditorium,2567,Barton Springs/Bouldin @ Palmer Auditorium,69
+33857408,Pay-as-you-ride,21823,electric,29/6/2024 20:03:17,2575,Riverside/South Lamar,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2
+33857378,Student Membership,22573,electric,29/6/2024 20:00:23,2548,Guadalupe/West Mall @ University Co-op,7189,28th/Rio Grande,4
+33857335,Explorer,21621,electric,29/6/2024 19:57:02,3686,Sterzing/Barton Springs,3513,South Congress/Barton Springs @ The Austin American-Statesman,97
+33857313,Student Membership,22461,electric,29/6/2024 19:55:25,2498,Dean Keeton/Speedway,2547,21st/Guadalupe,6
+33857309,Pay-as-you-ride,19280,electric,29/6/2024 19:55:07,2575,Riverside/South Lamar,7186,One Texas Center,52
+33857304,Pay-as-you-ride,19870,electric,29/6/2024 19:54:36,2575,Riverside/South Lamar,7186,One Texas Center,53
+33857287,Student Membership,22573,electric,29/6/2024 19:53:23,7189,28th/Rio Grande,2548,Guadalupe/West Mall @ University Co-op,7
+33857282,Pay-as-you-ride,1949,classic,29/6/2024 19:52:59,4058,Hollow Creek/Barton Hills,2575,Riverside/South Lamar,8
+33857234,Explorer,19693,electric,29/6/2024 19:49:27,2499,2nd/Lavaca @ City Hall,3791,Lake Austin/Enfield,24
+33857130,Pay-as-you-ride,19196,electric,29/6/2024 19:41:45,3686,Sterzing/Barton Springs,2542,Plaza Saltillo,24
+33857100,Explorer,353G,classic,29/6/2024 19:39:51,3686,Sterzing/Barton Springs,3686,Sterzing/Barton Springs,19
+33857099,Student Membership,21486,electric,29/6/2024 19:39:46,3686,Sterzing/Barton Springs,2542,Plaza Saltillo,26
+33857057,Student Membership,19132,electric,29/6/2024 19:36:41,3838,26th/Nueces,3798,21st/Speedway @ PCL,5
+33857053,Pay-as-you-ride,19720,electric,29/6/2024 19:36:34,2549,South 1st/Riverside @ Long Center,2549,South 1st/Riverside @ Long Center,5
+33857052,Pay-as-you-ride,19254,electric,29/6/2024 19:36:33,2549,South 1st/Riverside @ Long Center,2549,South 1st/Riverside @ Long Center,3
+33857032,Student Membership,22470,electric,29/6/2024 19:35:38,7189,28th/Rio Grande,7189,28th/Rio Grande,44
+33857021,Student Membership,21816,electric,29/6/2024 19:34:59,3838,26th/Nueces,3798,21st/Speedway @ PCL,5
+33857011,Explorer,14244,classic,29/6/2024 19:34:22,2572,Barton Springs Pool,3513,South Congress/Barton Springs @ The Austin American-Statesman,120
+33857006,Explorer,19160,electric,29/6/2024 19:34:06,4059,Nash Hernandez/East @ RBJ South,2707,Rainey/Cummings,24
+33857001,Explorer,22563,electric,29/6/2024 19:33:49,2572,Barton Springs Pool,3686,Sterzing/Barton Springs,23
+33856996,Local365,19148,electric,29/6/2024 19:33:26,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2539,3rd/Trinity @ The Convention Center,7
+33856969,Student Membership,18696,electric,29/6/2024 19:30:56,2547,21st/Guadalupe,7189,28th/Rio Grande,8
+33856888,Explorer,19274,electric,29/6/2024 19:23:24,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,38
+33856880,Explorer,19239,electric,29/6/2024 19:23:07,4059,Nash Hernandez/East @ RBJ South,4059,Nash Hernandez/East @ RBJ South,38
+33856875,Explorer,21790,electric,29/6/2024 19:22:52,2498,Dean Keeton/Speedway,3795,Dean Keeton/Whitis,2
+33856855,Explorer,21810,electric,29/6/2024 19:20:50,2711,Barton Springs/Kinney,3684,Cesar Chavez/Congress,43
+33856852,Explorer,19110,electric,29/6/2024 19:20:42,2711,Barton Springs/Kinney,3684,Cesar Chavez/Congress,43
+33856830,Explorer,382,classic,29/6/2024 19:18:36,2707,Rainey/Cummings,4059,Nash Hernandez/East @ RBJ South,15
+33856805,Explorer,22453,electric,29/6/2024 19:17:11,3798,21st/Speedway @ PCL,2498,Dean Keeton/Speedway,5
+33856785,Student Membership,21816,electric,29/6/2024 19:16:28,2547,21st/Guadalupe,3838,26th/Nueces,3
+33856762,Explorer,22599,electric,29/6/2024 19:14:25,4699,East 5th/Shady @ Eastside Bus Plaza,4699,East 5th/Shady @ Eastside Bus Plaza,51
+33856720,Local365,23251,electric,29/6/2024 19:10:44,3794,4th/Sabine,2537,6th/West,46
+33856712,Local365,19160,electric,29/6/2024 19:10:17,2503,South Congress/James,4059,Nash Hernandez/East @ RBJ South,15
+33856706,Student Membership,19078,electric,29/6/2024 19:09:38,7125,23rd/Pearl,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,20
+33856696,Local31,16828,electric,29/6/2024 19:09:07,4062,Lakeshore/Pleasant Valley,4062,Lakeshore/Pleasant Valley,45
+33856693,Local31,22573,electric,29/6/2024 19:09:04,7190,Rio Grande/12th,7189,28th/Rio Grande,11
+33856676,Student Membership,19865,electric,29/6/2024 19:08:10,7125,23rd/Pearl,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,21
+33856651,Student Membership,18696,electric,29/6/2024 19:06:36,7189,28th/Rio Grande,2547,21st/Guadalupe,7
+33856548,Local365,19148,electric,29/6/2024 18:59:03,2711,Barton Springs/Kinney,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,6
+33856510,Student Membership,22470,electric,29/6/2024 18:56:50,4879,16th/San Antonio,7189,28th/Rio Grande,39
+33856434,Explorer,19693,electric,29/6/2024 18:50:57,4059,Nash Hernandez/East @ RBJ South,2499,2nd/Lavaca @ City Hall,56
+33856425,Student Membership,19319,electric,29/6/2024 18:50:35,3798,21st/Speedway @ PCL,2548,Guadalupe/West Mall @ University Co-op,362
+33856406,Local365,1949,classic,29/6/2024 18:48:54,3686,Sterzing/Barton Springs,4058,Hollow Creek/Barton Hills,7
+33856328,Student Membership,19319,electric,29/6/2024 18:44:14,3838,26th/Nueces,3798,21st/Speedway @ PCL,4
+33856290,Student Membership,21516,electric,29/6/2024 18:41:54,7125,23rd/Pearl,2498,Dean Keeton/Speedway,5
+33856267,Student Membership,21806,electric,29/6/2024 18:39:52,7189,28th/Rio Grande,4938,22.5/Rio Grande,3
+33856226,Student Membership,19319,electric,29/6/2024 18:35:57,3798,21st/Speedway @ PCL,3838,26th/Nueces,6
+33856216,Local365,16828,electric,29/6/2024 18:35:24,2504,South Congress/Elizabeth,4062,Lakeshore/Pleasant Valley,14
+33856202,Student Membership,19078,electric,29/6/2024 18:33:44,3838,26th/Nueces,7125,23rd/Pearl,4
+33856187,Explorer,19319,electric,29/6/2024 18:32:16,3795,Dean Keeton/Whitis,3798,21st/Speedway @ PCL,3
+33856065,Local365,1949,classic,29/6/2024 18:21:24,4058,Hollow Creek/Barton Hills,3686,Sterzing/Barton Springs,6
+33856056,Explorer,19207,electric,29/6/2024 18:20:01,2552,3rd/West,2499,2nd/Lavaca @ City Hall,66
+33855996,Explorer,22599,electric,29/6/2024 18:16:59,4699,East 5th/Shady @ Eastside Bus Plaza,4699,East 5th/Shady @ Eastside Bus Plaza,57
+33855966,Student Membership,22461,electric,29/6/2024 18:15:04,3838,26th/Nueces,2498,Dean Keeton/Speedway,2
+33855938,Explorer,22530,electric,29/6/2024 18:13:17,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2499,2nd/Lavaca @ City Hall,73
+33855921,Explorer,1486,classic,29/6/2024 18:12:03,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,2552,3rd/West,7
+33855919,Student Membership,22470,electric,29/6/2024 18:11:55,7190,Rio Grande/12th,4879,16th/San Antonio,45
+33855881,Student Membership,19865,electric,29/6/2024 18:08:55,2548,Guadalupe/West Mall @ University Co-op,7125,23rd/Pearl,3
+33855782,Student Membership,19132,electric,29/6/2024 18:02:03,3798,21st/Speedway @ PCL,3838,26th/Nueces,6
+33855767,Student Membership,19865,electric,29/6/2024 18:01:22,3798,21st/Speedway @ PCL,2548,Guadalupe/West Mall @ University Co-op,7
+33855713,Student Membership,19078,electric,29/6/2024 17:58:05,3798,21st/Speedway @ PCL,3838,26th/Nueces,10
+33855684,Student Membership,22461,electric,29/6/2024 17:56:43,3798,21st/Speedway @ PCL,3838,26th/Nueces,6
+33855652,Student Membership,21499,electric,29/6/2024 17:53:04,7189,28th/Rio Grande,7190,Rio Grande/12th,18
+33855651,Explorer,21679,electric,29/6/2024 17:52:58,2497,11th/Congress @ The Texas Capitol,2497,11th/Congress @ The Texas Capitol,6
+33855648,Student Membership,19132,electric,29/6/2024 17:52:56,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,8
+33855526,Student Membership,21816,electric,29/6/2024 17:43:09,2552,3rd/West,2547,21st/Guadalupe,14
+33855520,Student Membership,19132,electric,29/6/2024 17:42:42,4938,22.5/Rio Grande,7189,28th/Rio Grande,3
+33855513,Explorer,18726,electric,29/6/2024 17:42:26,7253,Barton Springs/Riverside,2567,Barton Springs/Bouldin @ Palmer Auditorium,11
+33855507,Explorer,17751,electric,29/6/2024 17:41:59,7253,Barton Springs/Riverside,2567,Barton Springs/Bouldin @ Palmer Auditorium,12
+33855448,Explorer,22431,electric,29/6/2024 17:37:26,2542,Plaza Saltillo,3794,4th/Sabine,44
+33855382,Explorer,21659,electric,29/6/2024 17:30:47,7190,Rio Grande/12th,2569,East 11th/San Marcos,9
+33855339,Explorer,21773,electric,29/6/2024 17:27:56,3794,4th/Sabine,2542,Plaza Saltillo,9
+33855255,Pay-as-you-ride,19330,electric,29/6/2024 17:21:51,2552,3rd/West,2497,11th/Congress @ The Texas Capitol,24
+33855199,Explorer,22530,electric,29/6/2024 17:18:06,2572,Barton Springs Pool,2566,Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge,13
+33855138,Student Membership,21516,electric,29/6/2024 17:13:36,4050,5th/Campbell,7125,23rd/Pearl,44
+33855120,Student Membership,19132,electric,29/6/2024 17:12:15,2547,21st/Guadalupe,4938,22.5/Rio Grande,4
+33855022,Explorer,21679,electric,29/6/2024 17:03:52,2570,South Congress/Academy,2497,11th/Congress @ The Texas Capitol,17
+33854966,Student Membership,21821,electric,29/6/2024 16:59:08,7125,23rd/Pearl,4050,5th/Campbell,13
+33854910,Student Membership,23277,electric,29/6/2024 16:55:06,7131,13th/Trinity @ Waterloo Greenway,3794,4th/Sabine,15
+33854906,Student Membership,21821,electric,29/6/2024 16:54:53,7189,28th/Rio Grande,7125,23rd/Pearl,4
+33854837,Student Membership,21499,electric,29/6/2024 16:48:59,3838,26th/Nueces,7189,28th/Rio Grande,6
+33854771,Student Membership,21806,electric,29/6/2024 16:43:24,2547,21st/Guadalupe,7189,28th/Rio Grande,5
+33854754,Student Membership,21821,electric,29/6/2024 16:41:47,3798,21st/Speedway @ PCL,7189,28th/Rio Grande,7
+33854745,Student Membership,19280,electric,29/6/2024 16:41:01,2499,2nd/Lavaca @ City Hall,2575,Riverside/South Lamar,55
+33854741,Student Membership,22453,electric,29/6/2024 16:40:34,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,12
+33854740,Student Membership,19865,electric,29/6/2024 16:40:26,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,12
+33854712,Student Membership,19078,electric,29/6/2024 16:38:15,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,14
+33854710,Student Membership,21516,electric,29/6/2024 16:38:05,2498,Dean Keeton/Speedway,4050,5th/Campbell,21
+33854703,Student Membership,22461,electric,29/6/2024 16:37:40,7189,28th/Rio Grande,3798,21st/Speedway @ PCL,15
+33854678,Explorer,19274,electric,29/6/2024 16:35:03,4061,Lakeshore/Austin Hostel,4059,Nash Hernandez/East @ RBJ South,58
