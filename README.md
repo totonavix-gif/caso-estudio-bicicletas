@@ -139,27 +139,45 @@ print(tabla_suscriptores_query)
 ```
 </details>
 
-### C. Análisis Cruzado: Intersección de Suscriptores vs. Vehículos
-Para entender los hábitos específicos de cada grupo, cruzamos las variables comerciales. Este análisis demuestra qué vehículos prefiere cada tipo de usuario, permitiendo identificar patrones de uso muy marcados (como los 456 viajes eléctricos hechos por usuarios de fines de semana de 3 días).
+### C. Análisis Cruzado Completo: Intersección de Suscriptores vs. Unidades
+Esta matriz bidimensional de datos crudos unificados expone las preferencias explícitas de cada nicho de negocio. Se observa un patrón crítico: los usuarios temporales (Pases de 24 horas y Fin de semana) eligen abrumadoramente unidades eléctricas, mientras que los pases individuales de pago por uso representan el bloque más grande de usuarios que aún retienen el uso de bicicletas clásicas.
 
-| Tipo de Suscriptor | Uso de Bici Clásica | Uso de Bici Eléctrica |
-| :--- | :---: | :---: |
-| Pase de acceso 24 horas | 167 | 291 |
-| Fin de semana de 3 días | 128 | 456 |
-| Membresía anual | 0 | 3 |
-| Explorador | 193 | 641 |
-| Local30 | 3 | 10 |
-| Local31 | 68 | 654 |
-| Local365 | 87 | 636 |
-| Pase invitado Local365+ | 1 | 0 |
-| Pago por viaje | 201 | 390 |
-| Republic Rider (Anual) | 2 | 0 |
-| Viaje individual | 301 | 272 |
-| Membresía estudiantil | 81 | 361 |
-| Membresía estudiantil UT | 4 | 50 |
+| Tipo de Suscriptor | Uso de Bici Clásica | Uso de Bici Eléctrica | Total Consolidado |
+| :--- | :---: | :---: | :---: |
+| Pase de acceso 24 horas | 167 | 291 | 458 |
+| Fin de semana de 3 días | 128 | 456 | 584 |
+| Membresía anual | 0 | 3 | 3 |
+| Explorador | 193 | 641 | 834 |
+| Local30 | 3 | 10 | 13 |
+| Local31 | 68 | 654 | 722 |
+| Local365 | 87 | 636 | 723 |
+| Pase invitado Local365+ | 1 | 0 | 1 |
+| Pago por viaje | 201 | 390 | 591 |
+| Republic Rider (Anual) | 2 | 0 | 2 |
+| Viaje individual | 301 | 272 | 573 |
+| Membresía estudiantil | 81 | 361 | 442 |
+| Membresía estudiantil UT | 4 | 50 | 54 |
 
-▶ **Haz clic aquí para ver la Query avanzada de Pivotación (Tabla Dinámica en R)**
+▶ **Haz clic aquí para ver la Query avanzada de Pivotación Estructural (Tabla Dinámica en R)**
 <details>
+<summary>Desplegar Query de Pivotación</summary>
+
+```r
+# Query avanzada para cruzar variables y pivotar la matriz a formato ancho
+tabla_cruzada_query <- viajes_depurados %>%
+  group_by(subscriber_type, bike_type) %>%
+  summarise(total_viajes = n(), .groups = 'drop') %>%
+  pivot_wider(
+    names_from = bike_type, 
+    values_from = total_viajes,
+    values_fill = 0
+  )
+
+print(tabla_cruzada_query)
+```
+</details>
+
+
 <summary>Desplegar Query de Tabla Cruzada</summary>
 
 ```r
