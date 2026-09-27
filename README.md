@@ -10,64 +10,70 @@ El objetivo de este proyecto es analizar cómo difieren los hábitos de uso de l
 * ¿Cómo podemos utilizar estos hallazgos para diseñar estrategias de marketing que conviertan a los usuarios ocasionales en miembros anuales recurrentes?
 
 ---
-
 ## 2. Fase: Preparar (Prepare)
-Para este análisis se utilizó el dataset histórico de viajes del sistema de bicicletas compartidas, ubicado en la carpeta `data_raw/` de este repositorio. 
+Para este análisis se procesó un ecosistema de datos de origen primario ubicado en la carpeta `data_raw/` de este proyecto. El universo de análisis consta de **5,237 registros de viajes individuales** distribuidos en tres matrices complementarias extraídas de las hojas de cálculo operacionales del sistema:
 
-### Evaluación de la calidad de los datos (Criterio ROCCC de Google):
-* **Confiables (Reliable):** Los datos provienen directamente del registro automatizado del sistema de bicicletas.
-* **Originales (Original):** Es una fuente primaria de datos del servicio público de transporte.
-* **Completos (Comprehensive):** Contiene información desagregada por tipo de suscripción y tipo de vehículo.
-* **Actuales (Current):** Refleja las tendencias operativas recientes del sistema.
-* **Citados (Cited):** Los datos se manejan bajo estricto anonimato de los usuarios, cumpliendo con las normativas de privacidad vigentes.
+*   `viajes_2024.csv`: Registro operativo de viajes recientes (junio 2024), caracterizado por la presencia dominante de unidades eléctricas y clasificaciones estudiantiles modernas.
+*   `viajes_historico.csv`: Base de datos histórica con trayectos de los años 2020, 2021 y 2022, aislando la línea base del sistema pre-electrificación y pases de fin de semana tradicionales.
+*   `conteo_suscriptores.csv`: Matriz de control de calidad y auditoría utilizada para cruzar y validar los conteos netos del sistema.
+
+### Evaluación de la Calidad de los Datos (Criterio ROCCC de Google):
+*   **Reliable (Confiable):** Datos precisos extraídos directamente de los sensores automatizados de Austin MetroBike.
+*   **Original (Original):** Fuente primaria de primera mano; no se utilizaron agregaciones de terceros.
+*   **Comprehensive (Completo):** Contiene variables de geolocalización, temporales, de hardware y comerciales.
+*   **Current (Actual):** Mapea la evolución del negocio combinando el comportamiento histórico con las tendencias operativas de 2024.
+*   **Cited (Citados):** El dataset cumple con las normativas de privacidad al anonimizar las identidades bajo identificadores únicos (`trip_id`).
+
 
 ---
 
+
+
 ## 3. Fase: Procesar (Process)
-Para garantizar la integridad y calidad de la información, se importó el dataset original que contenía un registro bruto de **5,000 filas de viajes**. El procesamiento se ejecutó en **R Studio** utilizando el ecosistema `tidyverse`. 
+Para garantizar la integridad y calidad de la información, se importó el dataset original que contenía un registro bruto de **5,237 filas de viajes independientes**. El procesamiento y la unificación de las pestañas de origen se ejecutó en **R Studio** utilizando el ecosistema `tidyverse`. 
 
-Durante esta fase se aplicaron los siguientes filtros de calidad:
-* Eliminación de registros duplicados en el identificador de viaje.
-* Exclusión de filas con valores nulos (`NA`) en las columnas críticas de clasificación.
-* Limpieza de espacios en blanco accidentales mediante funciones de recorte de texto.
+Durante esta fase se aplicaron los siguientes filtros de calidad analítica:
+* Estandarización de nombres de columnas a formato snake_case.
+* Eliminación de registros duplicados basados en el identificador único `trip_id`.
+* Exclusión de filas con valores nulos (`NA`) en campos críticos de geolocalización.
+* Filtrado de inconsistencias operativas (viajes con duraciones menores a 1 minuto o mayores a 24 horas).
 
-▶ **Haz clic aquí para ver el script de R utilizado para la limpieza de las 5,000 filas**
+▶ **Haz clic aquí para ver el script de R avanzado utilizado para la unificación y depuración de datos**
 <details>
-<summary>Desplegar Código de Limpieza</summary>
+<summary>Desplegar Código de Limpieza y Unión de Datos</summary>
 
 ```r
-# =======================================================
-# SCRIPT DE R: LIMPIEZA Y PREPARACIÓN DE LAS 5,000 FILAS
-# =======================================================
+# ==============================================================================
+# SCRIPT DE R: UNIFICACIÓN DE REGISTROS HISTÓRICOS Y DEPURACIÓN (5,237 REGISTROS)
+# ==============================================================================
 
-# Cargar librerías estándar de Google Data Analytics
 library(tidyverse)
 library(janitor)
 
-# 1. Importar el dataset original de 5,000 registros
-viajes_raw <- read_csv("data_raw/caso-estudio-bicicletas")
+# 1. Importar las fuentes crudas desde la carpeta de origen
+viajes_recent_2024 <- read_csv("data_raw/viajes_2024.csv")
+viajes_old_historico <- read_csv("data_raw/viajes_historico.csv")
 
-# 2. Pipeline de limpieza profunda para asegurar consistencia
-viajes_limpios <- viajes_raw %>%
-  # Estandarizar nombres de columnas a formato snake_case
+# 2. Conector estructural: Combinar datasets verticalmente (UNION ALL equivalente)
+viajes_consolidado_raw <- bind_rows(viajes_recent_2024, viajes_old_historico)
+
+# 3. Pipeline automatizado de procesamiento analítico
+viajes_depurados <- viajes_consolidado_raw %>%
   clean_names() %>%
-  
-  # Remover filas completamente idénticas (Garantía de unicidad)
-  distinct() %>%
-  
-  # Eliminar filas donde falten datos del suscriptor o del vehículo
-  drop_na(tipo_de_suscriptor, tipo_de_bicicleta) %>%
-  
-  # Normalizar textos: quitar espacios vacíos y forzar minúsculas
+  distinct(trip_id, .keep_all = TRUE) %>%
+  drop_na(start_station_name, end_station_name, subscriber_type) %>%
   mutate(
-    tipo_de_suscriptor = str_trim(tipo_de_suscriptor),
-    tipo_de_bicicleta = str_to_lower(str_trim(tipo_de_bicicleta))
-  )
+    subscriber_type = str_trim(subscriber_type),
+    bike_type = str_to_lower(str_trim(bike_type))
+  ) %>%
+  filter(duration_minutes >= 1 & duration_minutes <= 1440)
 
-# 3. Exportar base de datos depurada a la carpeta correspondiente
-write_csv(viajes_limpios, "data_clean/viajes_bicicletas_procesado.csv")
+# 4. Exportar el dataset unificado e íntegro para la fase de análisis
+write_csv(viajes_depurados, "data_clean/viajes_bicicletas_unificado.csv")
 ```
 </details>
+
+
 
 ---
 
