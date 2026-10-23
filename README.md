@@ -305,7 +305,7 @@ plt.show()
 
 
 
-https://github.com/user-attachments/assets/a71dcd14-f4db-4aa9-b5bd-4440ee3e03d3
+<img width="800" height="450" alt="video5104830890589030521" src="https://github.com/user-attachments/assets/a5f7d2c2-5f6b-47c0-a8ef-92f162ccf360" />
 
 
 
