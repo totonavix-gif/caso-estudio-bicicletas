@@ -291,23 +291,22 @@ plt.show()
 ![Visualizacion Maestra Unificada](pastel_doble_data.png)
 
 ---
+<img width="800" height="451" alt="video5104830890589030518" src="https://github.com/user-attachments/assets/72697ae1-6849-4c17-9111-08fbc6e482c2" />
 
 
 <img width="800" height="450" alt="video5104830890589030519" src="https://github.com/user-attachments/assets/c86979aa-29e7-43a7-9857-cc89c3be445a" />
 
 
+<img width="800" height="450" alt="video5104830890589030520" src="https://github.com/user-attachments/assets/dfbc8f4b-edb8-43d5-8cf8-79e5dba61664" />
 
 
 
-https://github.com/user-attachments/assets/03df768a-4f52-483e-8e99-47e9c3b9e54c
 
 
 
-https://github.com/user-attachments/assets/125f1c64-0d61-45f1-ab6a-92dc206c0cca
 
+https://github.com/user-attachments/assets/a71dcd14-f4db-4aa9-b5bd-4440ee3e03d3
 
-
-https://github.com/user-attachments/assets/e2b03026-e41e-414d-bc8c-0fa3c659a36d
 
 
 
