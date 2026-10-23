@@ -292,6 +292,28 @@ plt.show()
 
 ---
 
+
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/5680f9f1-e361-4564-957b-f1b31a2f859e" width="100%" autoplay loop muted playsinline></video>
+</p>
+
+
+
+
+https://github.com/user-attachments/assets/03df768a-4f52-483e-8e99-47e9c3b9e54c
+
+
+
+https://github.com/user-attachments/assets/125f1c64-0d61-45f1-ab6a-92dc206c0cca
+
+
+
+https://github.com/user-attachments/assets/e2b03026-e41e-414d-bc8c-0fa3c659a36d
+
+
+
+
 ---
 
 ## 6. Fase: Actuar (Act)
@@ -300,3 +322,5 @@ Basado en el análisis cuantitativo de los 5,000 viajes registrados en el sistem
 1. **Campaña de Conversión Eléctrica:** Dado que las bicicletas eléctricas dominan de manera absoluta el **75.28%** del mercado, se debe crear una membresía premium anual enfocada exclusivamente en este segmento (por ejemplo: "Plan Local Electrónico"), ofreciendo minutos gratis de electricidad a los usuarios que migren de "Pago por viaje" o "Viaje individual".
 2. **Estrategia de Fin de Semana:** Los usuarios de tipo **Explorador** y **Fin de semana de 3 días** representan juntos casi el **28.4%** de la demanda total de la plataforma. Se recomienda lanzar cupones de descuento directos hacia membresías anuales que se activen automáticamente el lunes por la mañana para retener a este volumen masivo de usuarios de fin de semana.
 3. **Rediseño del Plan Estudiantil:** Las membresías estudiantiles (incluyendo las de la UT) apenas alcanzan cerca del **10%** del uso total de la plataforma. Para incentivar este mercado y dar salida al inventario rezagado de bicicletas clásicas (**24.72%**), se propone lanzar un plan estudiantil de bajo costo limitado exclusivamente al uso de bicicletas clásicas en días hábiles.
+
+
