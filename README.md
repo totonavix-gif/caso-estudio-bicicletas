@@ -293,10 +293,8 @@ plt.show()
 ---
 
 
+<img width="800" height="450" alt="video5104830890589030519" src="https://github.com/user-attachments/assets/c86979aa-29e7-43a7-9857-cc89c3be445a" />
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/5680f9f1-e361-4564-957b-f1b31a2f859e" width="100%" autoplay loop muted playsinline></video>
-</p>
 
 
 
